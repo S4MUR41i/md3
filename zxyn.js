@@ -1,6 +1,6 @@
 /**
    * Recode By ZxynOfc
-   * Recode back oleh ArullOfc
+   * Recode back oleh Asrori Amin
    * Contact Me on wa.me/6283149781035
    * Follow https://github.com/YosaArdn
    * Base Dika Ardnt
@@ -190,7 +190,7 @@ _sewa.expiredCheck(zxyn, sewa)
 	    let setting = global.db.data.settings[botNumber]
 	    if (new Date() * 1 - setting.status > 1000) {
 		let uptime = await runtime(process.uptime())
-		await zxyn.setStatus(`${'©ArullOfc'} | Runtime : ${runtime(uptime)}`)
+		await zxyn.setStatus(`${'Asrori Amin'} | Runtime : ${runtime(uptime)}`)
 		setting.status = new Date() * 1
 	    }
 	}
@@ -261,7 +261,7 @@ ${Array.from(room.jawaban, (jawaban, index) => {
             kuis = true
             jawaban = tebaklagu[m.sender.split('@')[0]]
             if (budy.toLowerCase() == jawaban) {
-                await zxyn.sendButtonText(m.chat, [{ buttonId: 'tebak lagu', buttonText: { displayText: 'Tebak Lagu' }, type: 1 }], `🎮 Tebak Lagu 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, '© ZxynOfc', m)
+                await zxyn.sendButtonText(m.chat, [{ buttonId: 'tebak lagu', buttonText: { displayText: 'Tebak Lagu' }, type: 1 }], `🎮 Tebak Lagu 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, 'Asrori Amin', m)
                 delete tebaklagu[m.sender.split('@')[0]]
             } else m.reply('*Jawaban Salah!*')
         }
@@ -279,7 +279,7 @@ ${Array.from(room.jawaban, (jawaban, index) => {
             kuis = true
             jawaban = tebakgambar[m.sender.split('@')[0]]
             if (budy.toLowerCase() == jawaban) {
-                await zxyn.sendButtonText(m.chat, [{ buttonId: 'tebak gambar', buttonText: { displayText: 'Tebak Gambar' }, type: 1 }], `🎮 Tebak Gambar 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, '© ZxynOfc', m)
+                await zxyn.sendButtonText(m.chat, [{ buttonId: 'tebak gambar', buttonText: { displayText: 'Tebak Gambar' }, type: 1 }], `🎮 Tebak Gambar 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, 'Asrori Amin', m)
                 delete tebakgambar[m.sender.split('@')[0]]
             } else m.reply('*Jawaban Salah!*')
         }
@@ -288,7 +288,7 @@ ${Array.from(room.jawaban, (jawaban, index) => {
             kuis = true
             jawaban = tebakkata[m.sender.split('@')[0]]
             if (budy.toLowerCase() == jawaban) {
-                await zxyn.sendButtonText(m.chat, [{ buttonId: 'tebak kata', buttonText: { displayText: 'Tebak Kata' }, type: 1 }], `🎮 Tebak Kata 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, '© ZxynOfc', m)
+                await zxyn.sendButtonText(m.chat, [{ buttonId: 'tebak kata', buttonText: { displayText: 'Tebak Kata' }, type: 1 }], `🎮 Tebak Kata 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, 'Asrori Amin', m)
                 delete tebakkata[m.sender.split('@')[0]]
             } else m.reply('*Jawaban Salah!*')
         }
@@ -298,7 +298,7 @@ ${Array.from(room.jawaban, (jawaban, index) => {
             jawaban = caklontong[m.sender.split('@')[0]]
 	    deskripsi = caklontong_desk[m.sender.split('@')[0]]
             if (budy.toLowerCase() == jawaban) {
-                await zxyn.sendButtonText(m.chat, [{ buttonId: 'tebak lontong', buttonText: { displayText: 'Tebak Lontong' }, type: 1 }], `🎮 Cak Lontong 🎮\n\nJawaban Benar 🎉\n*${deskripsi}*\n\nIngin bermain lagi? tekan button dibawah`, '© ZxynOfc', m)
+                await zxyn.sendButtonText(m.chat, [{ buttonId: 'tebak lontong', buttonText: { displayText: 'Tebak Lontong' }, type: 1 }], `🎮 Cak Lontong 🎮\n\nJawaban Benar 🎉\n*${deskripsi}*\n\nIngin bermain lagi? tekan button dibawah`, 'Asrori Amin', m)
                 delete caklontong[m.sender.split('@')[0]]
 		delete caklontong_desk[m.sender.split('@')[0]]
             } else m.reply('*Jawaban Salah!*')
@@ -308,7 +308,7 @@ ${Array.from(room.jawaban, (jawaban, index) => {
             kuis = true
             jawaban = tebakkalimat[m.sender.split('@')[0]]
             if (budy.toLowerCase() == jawaban) {
-                await zxyn.sendButtonText(m.chat, [{ buttonId: 'tebak kalimat', buttonText: { displayText: 'Tebak Kalimat' }, type: 1 }], `🎮 Tebak Kalimat 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, '© ZxynOfc', m)
+                await zxyn.sendButtonText(m.chat, [{ buttonId: 'tebak kalimat', buttonText: { displayText: 'Tebak Kalimat' }, type: 1 }], `🎮 Tebak Kalimat 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, 'Asrori Amin', m)
                 delete tebakkalimat[m.sender.split('@')[0]]
             } else m.reply('*Jawaban Salah!*')
         }
@@ -317,7 +317,7 @@ ${Array.from(room.jawaban, (jawaban, index) => {
             kuis = true
             jawaban = tebaklirik[m.sender.split('@')[0]]
             if (budy.toLowerCase() == jawaban) {
-                await zxyn.sendButtonText(m.chat, [{ buttonId: 'tebak lirik', buttonText: { displayText: 'Tebak Lirik' }, type: 1 }], `🎮 Tebak Lirik 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, '© ZxynOfc', m)
+                await zxyn.sendButtonText(m.chat, [{ buttonId: 'tebak lirik', buttonText: { displayText: 'Tebak Lirik' }, type: 1 }], `🎮 Tebak Lirik 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, 'Asrori Amin', m)
                 delete tebaklirik[m.sender.split('@')[0]]
             } else m.reply('*Jawaban Salah!*')
         }
@@ -326,7 +326,7 @@ ${Array.from(room.jawaban, (jawaban, index) => {
             kuis = true
             jawaban = tebaktebakan[m.sender.split('@')[0]]
             if (budy.toLowerCase() == jawaban) {
-                await zxyn.sendButtonText(m.chat, [{ buttonId: 'tebak tebakan', buttonText: { displayText: 'Tebak Tebakan' }, type: 1 }], `🎮 Tebak Tebakan 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, '© ZxynOfc', m)
+                await zxyn.sendButtonText(m.chat, [{ buttonId: 'tebak tebakan', buttonText: { displayText: 'Tebak Tebakan' }, type: 1 }], `🎮 Tebak Tebakan 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, 'Asrori Amin', m)
                 delete tebaktebakan[m.sender.split('@')[0]]
             } else m.reply('*Jawaban Salah!*')
         }
@@ -597,26 +597,23 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
             case 'sc': {
                 anu = `*Base Ori : Dika Ardnt*
 https://github.com/DikaArdnt
-
-*Recode By : ArullOfc*
-https://youtu.be/9OvUdX8Xuv0`
 let btn = [{
                                 urlButton: {
                                     displayText: 'Source Code',
-                                    url: 'https://youtu.be/9OvUdX8Xuv0'
+                                    url: 'https://github.com/DikaArdnt'
                                 }
                             }]
                          let setbot = db.data.settings[botNumber]
                         if (setbot.templateImage) {
-                        zxyn.send5ButImg(m.chat, anu, '©ArullOfc', global.thumb, btn, global.thumb)
+                        zxyn.send5ButImg(m.chat, anu, 'Asrori Amin', global.thumb, btn, global.thumb)
                         } else if (setbot.templateGif) {
-                        zxyn.send5ButGif(m.chat, anu, '©ArullOfc', global.visoka, btn, global.thumb)
+                        zxyn.send5ButGif(m.chat, anu, 'Asrori Amin', global.visoka, btn, global.thumb)
                         } else if (setbot.templateVid) {
-                        zxyn.send5ButVid(m.chat, anu, '©ArullOfc', global.visoka, btn, global.thumb)
+                        zxyn.send5ButVid(m.chat, anu, 'Asrori Amin', global.visoka, btn, global.thumb)
                         } else if (setbot.templateMsg) {
-                        zxyn.send5ButMsg(m.chat, anu, '©ArullOfc', btn)
+                        zxyn.send5ButMsg(m.chat, anu, 'Asrori Amin', btn)
                         } else if (setbot.templateLocation) {
-                        zxyn.send5ButLoc(m.chat, anu, '©ArullOfc', global.thumb, btn)
+                        zxyn.send5ButLoc(m.chat, anu, 'Asrori Amin', global.thumb, btn)
                         }
                      }
             break
@@ -676,7 +673,7 @@ let btn = [{
                     await sleep(60000)
                     if (tebaklagu.hasOwnProperty(m.sender.split('@')[0])) {
                     console.log("Jawaban: " + result.jawaban)
-                    zxyn.sendButtonText(m.chat, [{ buttonId: 'tebak lagu', buttonText: { displayText: 'Tebak Lagu' }, type: 1 }], `Waktu Habis\nJawaban:  ${tebaklagu[m.sender.split('@')[0]]}\n\nIngin bermain? tekan button dibawah`, '© ZxynOfc', m)
+                    zxyn.sendButtonText(m.chat, [{ buttonId: 'tebak lagu', buttonText: { displayText: 'Tebak Lagu' }, type: 1 }], `Waktu Habis\nJawaban:  ${tebaklagu[m.sender.split('@')[0]]}\n\nIngin bermain? tekan button dibawah`, 'Asrori Amin', m)
                     delete tebaklagu[m.sender.split('@')[0]]
                     }
                 } else if (args[0] === 'gambar') {
@@ -689,7 +686,7 @@ let btn = [{
                     await sleep(60000)
                     if (tebakgambar.hasOwnProperty(m.sender.split('@')[0])) {
                     console.log("Jawaban: " + result.jawaban)
-                    zxyn.sendButtonText(m.chat, [{ buttonId: 'tebak gambar', buttonText: { displayText: 'Tebak Gambar' }, type: 1 }], `Waktu Habis\nJawaban:  ${tebakgambar[m.sender.split('@')[0]]}\n\nIngin bermain? tekan button dibawah`, '© ZxynOfc', m)
+                    zxyn.sendButtonText(m.chat, [{ buttonId: 'tebak gambar', buttonText: { displayText: 'Tebak Gambar' }, type: 1 }], `Waktu Habis\nJawaban:  ${tebakgambar[m.sender.split('@')[0]]}\n\nIngin bermain? tekan button dibawah`, 'Asrori Amin', m)
                     delete tebakgambar[m.sender.split('@')[0]]
                     }
                 } else if (args[0] === 'kata') {
@@ -702,7 +699,7 @@ let btn = [{
                     await sleep(60000)
                     if (tebakkata.hasOwnProperty(m.sender.split('@')[0])) {
                     console.log("Jawaban: " + result.jawaban)
-                    zxyn.sendButtonText(m.chat, [{ buttonId: 'tebak kata', buttonText: { displayText: 'Tebak Kata' }, type: 1 }], `Waktu Habis\nJawaban:  ${tebakkata[m.sender.split('@')[0]]}\n\nIngin bermain? tekan button dibawah`, '© ZxynOfc', m)
+                    zxyn.sendButtonText(m.chat, [{ buttonId: 'tebak kata', buttonText: { displayText: 'Tebak Kata' }, type: 1 }], `Waktu Habis\nJawaban:  ${tebakkata[m.sender.split('@')[0]]}\n\nIngin bermain? tekan button dibawah`, 'Asrori Amin', m)
                     delete tebakkata[m.sender.split('@')[0]]
                     }
                 } else if (args[0] === 'kalimat') {
@@ -715,7 +712,7 @@ let btn = [{
                     await sleep(60000)
                     if (tebakkalimat.hasOwnProperty(m.sender.split('@')[0])) {
                     console.log("Jawaban: " + result.jawaban)
-                    zxyn.sendButtonText(m.chat, [{ buttonId: 'tebak kalimat', buttonText: { displayText: 'Tebak Kalimat' }, type: 1 }], `Waktu Habis\nJawaban:  ${tebakkalimat[m.sender.split('@')[0]]}\n\nIngin bermain? tekan button dibawah`, '© ZxynOfc', m)
+                    zxyn.sendButtonText(m.chat, [{ buttonId: 'tebak kalimat', buttonText: { displayText: 'Tebak Kalimat' }, type: 1 }], `Waktu Habis\nJawaban:  ${tebakkalimat[m.sender.split('@')[0]]}\n\nIngin bermain? tekan button dibawah`, 'Asrori Amin', m)
                     delete tebakkalimat[m.sender.split('@')[0]]
                     }
                 } else if (args[0] === 'lirik') {
@@ -728,7 +725,7 @@ let btn = [{
                     await sleep(60000)
                     if (tebaklirik.hasOwnProperty(m.sender.split('@')[0])) {
                     console.log("Jawaban: " + result.jawaban)
-                    zxyn.sendButtonText(m.chat, [{ buttonId: 'tebak lirik', buttonText: { displayText: 'Tebak Lirik' }, type: 1 }], `Waktu Habis\nJawaban:  ${tebaklirik[m.sender.split('@')[0]]}\n\nIngin bermain? tekan button dibawah`, '© ZxynOfc', m)
+                    zxyn.sendButtonText(m.chat, [{ buttonId: 'tebak lirik', buttonText: { displayText: 'Tebak Lirik' }, type: 1 }], `Waktu Habis\nJawaban:  ${tebaklirik[m.sender.split('@')[0]]}\n\nIngin bermain? tekan button dibawah`, 'Asrori Amin', m)
                     delete tebaklirik[m.sender.split('@')[0]]
                     }
                 } else if (args[0] === 'lontong') {
@@ -742,7 +739,7 @@ let btn = [{
                     await sleep(60000)
                     if (caklontong.hasOwnProperty(m.sender.split('@')[0])) {
                     console.log("Jawaban: " + result.jawaban)
-                    zxyn.sendButtonText(m.chat, [{ buttonId: 'tebak lontong', buttonText: { displayText: 'Tebak Lontong' }, type: 1 }], `Waktu Habis\nJawaban:  ${caklontong[m.sender.split('@')[0]]}\nDeskripsi : ${caklontong_desk[m.sender.split('@')[0]]}\n\nIngin bermain? tekan button dibawah`, '© ZxynOfc', m)
+                    zxyn.sendButtonText(m.chat, [{ buttonId: 'tebak lontong', buttonText: { displayText: 'Tebak Lontong' }, type: 1 }], `Waktu Habis\nJawaban:  ${caklontong[m.sender.split('@')[0]]}\nDeskripsi : ${caklontong_desk[m.sender.split('@')[0]]}\n\nIngin bermain? tekan button dibawah`, 'Asrori Amin', m)
                     delete caklontong[m.sender.split('@')[0]]
 		    delete caklontong_desk[m.sender.split('@')[0]]
                     }
@@ -777,7 +774,7 @@ let btn = [{
             let buttons = [
                         { buttonId: 'jodohku', buttonText: { displayText: 'Jodohku' }, type: 1 }
                     ]
-                    await zxyn.sendButtonText(m.chat, buttons, jawab, '© ArullOfc', m, {mentions: ments})
+                    await zxyn.sendButtonText(m.chat, buttons, jawab, '© Asrori Amin', m, {mentions: ments})
             }
             break
             case 'jadian': {
@@ -792,7 +789,7 @@ let btn = [{
             let buttons = [
                         { buttonId: 'jadian', buttonText: { displayText: 'Jodohku' }, type: 1 }
                     ]
-                    await zxyn.sendButtonText(m.chat, buttons, jawab, '© ArullOfc', m, {mentions: menst})
+                    await zxyn.sendButtonText(m.chat, buttons, jawab, '© Asrori Amin', m, {mentions: menst})
             }
             break
             case 'react': {
@@ -985,7 +982,7 @@ let buttonsVote = [
 
             let buttonMessageVote = {
                 text: teks_vote,
-                footer: '© ArullOfc',
+                footer: '© Asrori Amin',
                 buttons: buttonsVote,
                 headerType: 1
             }
@@ -1026,7 +1023,7 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
 
             let buttonMessageUpvote = {
                 text: teks_vote,
-                footer: '© ZxynOfc',
+                footer: 'Asrori Amin',
                 buttons: buttonsUpvote,
                 headerType: 1,
                 mentions: menvote
@@ -1068,7 +1065,7 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
 
             let buttonMessageDevote = {
                 text: teks_vote,
-                footer: '© ArullOfc',
+                footer: '© Asrori Amin',
                 buttons: buttonsDevote,
                 headerType: 1,
                 mentions: menvote
@@ -1125,7 +1122,7 @@ break
                         { buttonId: 'group open', buttonText: { displayText: 'Open' }, type: 1 },
                         { buttonId: 'group close', buttonText: { displayText: 'Close' }, type: 1 }
                     ]
-                    await zxyn.sendButtonText(m.chat, buttons, `Mode Group`, '© ArullOfc', m)
+                    await zxyn.sendButtonText(m.chat, buttons, `Mode Group`, '© Asrori Amin', m)
 
              }
             }
@@ -1143,7 +1140,7 @@ break
                         { buttonId: 'editinfo open', buttonText: { displayText: 'Open' }, type: 1 },
                         { buttonId: 'editinfo close', buttonText: { displayText: 'Close' }, type: 1 }
                     ]
-                    await zxyn.sendButtonText(m.chat, buttons, `Mode Edit Info`, '© ArullOfc', m)
+                    await zxyn.sendButtonText(m.chat, buttons, `Mode Edit Info`, '© Asrori Amin', m)
 
             }
             }
@@ -1165,7 +1162,7 @@ break
                         { buttonId: 'antilink on', buttonText: { displayText: 'On' }, type: 1 },
                         { buttonId: 'antilink off', buttonText: { displayText: 'Off' }, type: 1 }
                     ]
-                    await zxyn.sendButtonText(m.chat, buttons, `Mode Antilink`, '© ArullOfc', m)
+                    await zxyn.sendButtonText(m.chat, buttons, `Mode Antilink`, '© Asrori Amin', m)
                 }
              }
              break
@@ -1176,17 +1173,17 @@ break
                 if (args[0] === "on") {
                 if (db.data.chats[m.chat].mute) return m.reply(`Sudah Aktif Sebelumnya`)
                 db.data.chats[m.chat].mute = true
-                m.reply(`${'© ZxynOfc'} telah di mute di group ini !`)
+                m.reply(`${'Asrori Amin'} telah di mute di group ini !`)
                 } else if (args[0] === "off") {
                 if (!db.data.chats[m.chat].mute) return m.reply(`Sudah Tidak Aktif Sebelumnya`)
                 db.data.chats[m.chat].mute = false
-                m.reply(`${'© ZxynOfc'} telah di unmute di group ini !`)
+                m.reply(`${'Asrori Amin'} telah di unmute di group ini !`)
                 } else {
                  let buttons = [
                         { buttonId: 'mute on', buttonText: { displayText: 'On' }, type: 1 },
                         { buttonId: 'mute off', buttonText: { displayText: 'Off' }, type: 1 }
                     ]
-                    await zxyn.sendButtonText(m.chat, buttons, `Mute Bot`, '© ZxynOfc', m)
+                    await zxyn.sendButtonText(m.chat, buttons, `Mute Bot`, 'Asrori Amin', m)
                 }
              }
              break
@@ -1221,7 +1218,7 @@ break
                 ]
                 },
                 ]
-                zxyn.sendListMsg(m.chat, `Please select the following Ephemeral Options List !`, '© ZxynOfc', `Hello Admin ${groupMetadata.subject}`, `Click Here`, sections, m)
+                zxyn.sendListMsg(m.chat, `Please select the following Ephemeral Options List !`, 'Asrori Amin', `Hello Admin ${groupMetadata.subject}`, `Click Here`, sections, m)
                 }
             }
             break
@@ -1244,12 +1241,12 @@ break
                     let btn = [{
                                 urlButton: {
                                     displayText: 'Youtube📽️',
-                                    url: 'https://youtube.com/channel/UC31AobZtVn1WxyM8h9gWC-w'
+                                    url: 'https://youtube.com/channel/UCaybv50unIvy2sNCfqigusw'
                                 }
                                 }, {
                                 urlButton: {
                                     displayText: 'Group Bot🔗',
-                                    url: 'https://chat.whatsapp.com/F6CAAOhrORm1sPdq6cRKAS'
+                                    url: 'https://chat.whatsapp.com/JK8R3UJVF1KKySPeisEWdS'
                                 }
                                 }, {
                                 quickReplyButton: {
@@ -1268,7 +1265,7 @@ break
                                 }
                             }]
                       let txt = `「 Broadcast Bot 」\n\n${text}`
-                      zxyn.send5ButImg(i, txt, '© ZxynOfc', global.thumb, btn)
+                      zxyn.send5ButImg(i, txt, 'Asrori Amin', global.thumb, btn)
                     }
                 m.reply(`Sukses Mengirim Broadcast Ke ${anu.length} Group`)
             }
@@ -1283,12 +1280,12 @@ break
 		    let btn = [{
                                 urlButton: {
                                     displayText: 'Youtube📽️',
-                                    url: 'https://youtube.com/channel/UC31AobZtVn1WxyM8h9gWC-w'
+                                    url: 'https://youtube.com/channel/UCaybv50unIvy2sNCfqigusw'
                                 }
                                 }, {
                                 urlButton: {
                                     displayText: 'Group Bot🔗',
-                                    url: 'https://chat.whatsapp.com/F6CAAOhrORm1sPdq6cRKAS'
+                                    url: 'https://chat.whatsapp.com/JK8R3UJVF1KKySPeisEWdS'
                                 }
                                 }, {
                                 quickReplyButton: {
@@ -1307,7 +1304,7 @@ break
                                 }
                             }]
                       let txt = `「 Broadcast Bot 」\n\n${text}`
-                      zxyn.send5ButImg(yoi, txt, '© ArullOfc', global.thumb, btn)
+                      zxyn.send5ButImg(yoi, txt, '© Asrori Amin', global.thumb, btn)
 		}
 		m.reply('Sukses Broadcast')
             }
@@ -1502,7 +1499,7 @@ break
             let media = await quoted.download()
             let { toAudio } = require('./lib/converter')
             let audio = await toAudio(media, 'mp4')
-            zxyn.sendMessage(m.chat, {document: audio, mimetype: 'audio/mpeg', fileName: `Convert By ${'© ZxynOfc'}.mp3`}, { quoted : m })
+            zxyn.sendMessage(m.chat, {document: audio, mimetype: 'audio/mpeg', fileName: `Convert By ${'Asrori Amin'}.mp3`}, { quoted : m })
             }
             break
             case 'tovn': case 'toptt': {
@@ -1605,7 +1602,7 @@ break
                     caption: `*-------「 GIMAGE SEARCH 」-------*
 🤠 *Query* : ${text}
 🔗 *Media Url* : ${images}`,
-                    footer: '© ArullOfc',
+                    footer: '© Asrori Amin',
                     buttons: buttons,
                     headerType: 4
                 }
@@ -1635,7 +1632,7 @@ break
 ⭔ Channel : ${anu.author.url}
 ⭔ Description : ${anu.description}
 ⭔ Url : ${anu.url}`,
-                    footer: '© ArullOfc',
+                    footer: '© Asrori Amin',
                     buttons: buttons,
                     headerType: 4
                 }
@@ -1716,7 +1713,7 @@ break
                 let buttonMessage = {
                     image: { url: 'https://coffee.alexflipnote.dev/random' },
                     caption: `☕ Random Coffe`,
-                    footer: '© ZxynOfc',
+                    footer: 'Asrori Amin',
                     buttons: buttons,
                     headerType: 4
                 }
@@ -1734,7 +1731,7 @@ break
                 let buttonMessage = {
                     image: { url: result.image[0] },
                     caption: `⭔ Title : ${result.title}\n⭔ Category : ${result.type}\n⭔ Detail : ${result.source}\n⭔ Media Url : ${result.image[2] || result.image[1] || result.image[0]}`,
-                    footer: '© ArullOfc',
+                    footer: '© Asrori Amin',
                     buttons: buttons,
                     headerType: 4
                 }
@@ -1752,7 +1749,7 @@ break
                 let buttonMessage = {
                     image: { url: result.image },
                     caption: `⭔ Title : ${result.title}\n⭔ Source : ${result.source}\n⭔ Media Url : ${result.image}`,
-                    footer: '© ArullOfc',
+                    footer: '© Asrori Amin',
                     buttons: buttons,
                     headerType: 4
                 }
@@ -2272,7 +2269,7 @@ break
 ⭔ Url : ${anu.media[0]}
 Untuk Download Media Silahkan Klik salah satu Button dibawah ini atau masukkan command ytmp3/ytmp4 dengan url diatas
 `,
-			footer: '© ArullOfc',
+			footer: '© Asrori Amin',
 			buttons,
 			headerType: 4
 		    }
@@ -2528,7 +2525,7 @@ Lihat list Pesan Dengan ${prefix}listmsg`)
                     let buttons = [
                         { buttonId: 'keluar', buttonText: { displayText: 'Stop' }, type: 1 }
                     ]
-                    await zxyn.sendButtonText(m.chat, buttons, `\`\`\`Kamu Masih Berada Di dalam Sesi Anonymous, Tekan Button Dibawah Ini Untuk Menghentikan Sesi Anonymous Anda\`\`\``, '© ZxynOfc', m)
+                    await zxyn.sendButtonText(m.chat, buttons, `\`\`\`Kamu Masih Berada Di dalam Sesi Anonymous, Tekan Button Dibawah Ini Untuk Menghentikan Sesi Anonymous Anda\`\`\``, 'Asrori Amin', m)
                     throw false
                 }
                 let room = Object.values(this.anonymous).find(room => room.state === 'WAITING' && !room.check(m.sender))
@@ -2852,7 +2849,7 @@ let capt = `⭔ Title: ${judul}
                 ]
                 },
                 ]
-                zxyn.sendListMsg(m.chat, `Please select the menu you want to change!`, '© ZxynOfc', `Hello Owner !`, `Click Here`, sections, m)
+                zxyn.sendListMsg(m.chat, `Please select the menu you want to change!`, 'Asrori Amin', `Hello Owner !`, `Click Here`, sections, m)
                 }
             }
             break
@@ -2899,7 +2896,7 @@ anu = `╭──「 *SEWABOT* 」
 ├  DAN RATUSAN FITUR LAINYA
 ╰────
 ╭─[ *MINAT CHAT* ]
-├  🪀 wa.me/6285822347348?text=SEWABOT
+├  🪀 wa.me/6288227248988?text=SEWABOT
 ╰────
 ╭─[ *PAYMENT* ]
 ├  DANA
@@ -2907,8 +2904,8 @@ anu = `╭──「 *SEWABOT* 」
 ╰────`
 let btn = [{
                                 quickReplyButton: {
-                                    displayText: 'Dana',
-                                    id: 'Dana'
+                                    displayText: 'Gopay',
+                                    id: 'gopay'
                                 }
                                 }, {
                                 quickReplyButton: {
@@ -2923,27 +2920,27 @@ let btn = [{
                             }]
                          let setbot = db.data.settings[botNumber]
                         if (setbot.templateImage) {
-                        zxyn.send5ButImg(m.chat, anu, '© ArullOfc', global.thumb, btn, global.thumb)
+                        zxyn.send5ButImg(m.chat, anu, '© Asrori Amin', global.thumb, btn, global.thumb)
                         } else if (setbot.templateGif) {
-                        zxyn.send5ButGif(m.chat, anu, '© ArullOfc', global.visoka, btn, global.thumb)
+                        zxyn.send5ButGif(m.chat, anu, '© Asrori Amin', global.visoka, btn, global.thumb)
                         } else if (setbot.templateVid) {
-                        zxyn.send5ButVid(m.chat, anu, '© ArullOfc', global.visoka, btn, global.thumb)
+                        zxyn.send5ButVid(m.chat, anu, '© Asrori Amin', global.visoka, btn, global.thumb)
                         } else if (setbot.templateMsg) {
-                        zxyn.send5ButMsg(m.chat, anu, '© ArullOfc', btn)
+                        zxyn.send5ButMsg(m.chat, anu, '© Asrori Amin', btn)
                         } else if (setbot.templateLocation) {
-                        zxyn.send5ButLoc(m.chat, anu, '© ArullOfc', global.thumb, btn)
+                        zxyn.send5ButLoc(m.chat, anu, '© Asrori Amin', global.thumb, btn)
                         }
             break
-case 'dana': {
-                zxyn.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/03c5633ef82ee488a6afc.jpg' }, caption: `Gopay` }, { quoted: m })
+case 'gopay': {
+                zxyn.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/aef6646710362883c0003.jpg' }, caption: `Gopay` }, { quoted: m })
             }
             break
 case 'dana': {
-                zxyn.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/03c5633ef82ee488a6afc.jpg' }, caption: `DANA` }, { quoted: m })
+                zxyn.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/aef6646710362883c0003.jpg' }, caption: `DANA` }, { quoted: m })
             }
             break
 case 'pulsa': {
-m.reply('085822347348')
+m.reply('088227248988')
 }
 break
 // Button List
@@ -2953,7 +2950,7 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
                     title: `${ucapanWaktu} ${pushname}\n\nJika Kamu Menemukan Kesalahan Jangan Nanya Ke Owner, Mungkin Itu gara² Lu Sendiri\n`,
                     description: "*Klik Tombol Dibawah Untuk Melihat Menu Yang Tersedia👇*",
                     buttonText: "KLIK DISINI",
-                    footerText: "ArullOfc",
+                    footerText: "Asrori Amin",
                     listType: "SINGLE_SELECT",
                     sections: [{
 								"title": "All Menu Bot",
@@ -3389,7 +3386,7 @@ let btn = [{
                                 }, {
                                 urlButton: {
                                     displayText: 'Group Bot🔗',
-                                    url: 'https://chat.whatsapp.com/F6CAAOhrORm1sPdq6cRKAS'
+                                    url: 'https://chat.whatsapp.com/JK8R3UJVF1KKySPeisEWdS'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3409,15 +3406,15 @@ let btn = [{
                             }]
                          let setbot = db.data.settings[botNumber]
                         if (setbot.templateImage) {
-                        zxyn.send5ButImg(m.chat, anu, '© ArullOfc', global.thumb, btn, global.thumb)
+                        zxyn.send5ButImg(m.chat, anu, '© Asrori Amin', global.thumb, btn, global.thumb)
                         } else if (setbot.templateGif) {
-                        zxyn.send5ButGif(m.chat, anu, '© ArullOfc', global.visoka, btn, global.thumb)
+                        zxyn.send5ButGif(m.chat, anu, '© Asrori Amin', global.visoka, btn, global.thumb)
                         } else if (setbot.templateVid) {
-                        zxyn.send5ButVid(m.chat, anu, '© ArullOfc', global.visoka, btn, global.thumb)
+                        zxyn.send5ButVid(m.chat, anu, '© Asrori Amin', global.visoka, btn, global.thumb)
                         } else if (setbot.templateMsg) {
-                        zxyn.send5ButMsg(m.chat, anu, '© ArullOfc', btn)
+                        zxyn.send5ButMsg(m.chat, anu, '© Asrori Amin', btn)
                         } else if (setbot.templateLocation) {
-                        zxyn.send5ButLoc(m.chat, anu, '© ArullOfc', global.thumb, btn)
+                        zxyn.send5ButLoc(m.chat, anu, '© Asrori Amin', global.thumb, btn)
                         }
                      }
             break
@@ -3461,12 +3458,12 @@ anu = `${ucapanWaktu} ${pushname}
 let btn = [{
                                 urlButton: {
                                     displayText: 'Youtube📽️',
-                                    url: 'https://youtube.com/channel/UC31AobZtVn1WxyM8h9gWC-w'
+                                    url: 'https://youtube.com/channel/UCaybv50unIvy2sNCfqigusw'
                                 }
                                 }, {
                                 urlButton: {
                                     displayText: 'Group Bot🔗',
-                                    url: 'https://chat.whatsapp.com/F6CAAOhrORm1sPdq6cRKAS'
+                                    url: 'https://chat.whatsapp.com/JK8R3UJVF1KKySPeisEWdS'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3486,15 +3483,15 @@ let btn = [{
                             }]
                          let setbot = db.data.settings[botNumber]
                         if (setbot.templateImage) {
-                        zxyn.send5ButImg(m.chat, anu, '© ArullOfc', global.thumb, btn, global.thumb)
+                        zxyn.send5ButImg(m.chat, anu, '© Asrori Amin', global.thumb, btn, global.thumb)
                         } else if (setbot.templateGif) {
-                        zxyn.send5ButGif(m.chat, anu, '© ArullOfc', global.visoka, btn, global.thumb)
+                        zxyn.send5ButGif(m.chat, anu, '© Asrori Amin', global.visoka, btn, global.thumb)
                         } else if (setbot.templateVid) {
-                        zxyn.send5ButVid(m.chat, anu, '© ArullOfc', global.visoka, btn, global.thumb)
+                        zxyn.send5ButVid(m.chat, anu, '© Asrori Amin', global.visoka, btn, global.thumb)
                         } else if (setbot.templateMsg) {
-                        zxyn.send5ButMsg(m.chat, anu, '© ArullOfc', btn)
+                        zxyn.send5ButMsg(m.chat, anu, '© Asrori Amin', btn)
                         } else if (setbot.templateLocation) {
-                        zxyn.send5ButLoc(m.chat, anu, '© ArullOfc', global.thumb, btn)
+                        zxyn.send5ButLoc(m.chat, anu, '© Asrori Amin', global.thumb, btn)
                         }
                      }
             break
@@ -3547,12 +3544,12 @@ anu = `${ucapanWaktu} ${pushname}
 let btn = [{
                                 urlButton: {
                                     displayText: 'Youtube📽️',
-                                    url: 'https://youtube.com/channel/UC31AobZtVn1WxyM8h9gWC-w'
+                                    url: 'https://youtube.com/channel/UCaybv50unIvy2sNCfqigusw'
                                 }
                                 }, {
                                 urlButton: {
                                     displayText: 'Group Bot🔗',
-                                    url: 'https://chat.whatsapp.com/F6CAAOhrORm1sPdq6cRKAS'
+                                    url: 'https://chat.whatsapp.com/JK8R3UJVF1KKySPeisEWdS'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3572,15 +3569,15 @@ let btn = [{
                             }]
                          let setbot = db.data.settings[botNumber]
                         if (setbot.templateImage) {
-                        zxyn.send5ButImg(m.chat, anu, '© ArullOfc', global.thumb, btn, global.thumb)
+                        zxyn.send5ButImg(m.chat, anu, '© Asrori Amin', global.thumb, btn, global.thumb)
                         } else if (setbot.templateGif) {
-                        zxyn.send5ButGif(m.chat, anu, '© ArullOfc', global.visoka, btn, global.thumb)
+                        zxyn.send5ButGif(m.chat, anu, '© Asrori Amin', global.visoka, btn, global.thumb)
                         } else if (setbot.templateVid) {
-                        zxyn.send5ButVid(m.chat, anu, '© ArullOfc', global.visoka, btn, global.thumb)
+                        zxyn.send5ButVid(m.chat, anu, '© Asrori Amin', global.visoka, btn, global.thumb)
                         } else if (setbot.templateMsg) {
-                        zxyn.send5ButMsg(m.chat, anu, '© ArullOfc', btn)
+                        zxyn.send5ButMsg(m.chat, anu, '© Asrori Amin', btn)
                         } else if (setbot.templateLocation) {
-                        zxyn.send5ButLoc(m.chat, anu, '© ArullOfc', global.thumb, btn)
+                        zxyn.send5ButLoc(m.chat, anu, '© Asrori Amin', global.thumb, btn)
                         }
                      }
             break
@@ -3620,12 +3617,12 @@ anu = `${ucapanWaktu} ${pushname}
 let btn = [{
                                 urlButton: {
                                     displayText: 'Youtube📽️',
-                                    url: 'https://youtube.com/channel/UC31AobZtVn1WxyM8h9gWC-w'
+                                    url: 'https://youtube.com/channel/UCaybv50unIvy2sNCfqigusw'
                                 }
                                 }, {
                                 urlButton: {
                                     displayText: 'Group Bot🔗',
-                                    url: 'https://chat.whatsapp.com/F6CAAOhrORm1sPdq6cRKAS'
+                                    url: 'https://chat.whatsapp.com/JK8R3UJVF1KKySPeisEWdS'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3645,15 +3642,15 @@ let btn = [{
                             }]
                          let setbot = db.data.settings[botNumber]
                         if (setbot.templateImage) {
-                        zxyn.send5ButImg(m.chat, anu, '© ArullOfc', global.thumb, btn, global.thumb)
+                        zxyn.send5ButImg(m.chat, anu, '© Asrori Amin', global.thumb, btn, global.thumb)
                         } else if (setbot.templateGif) {
-                        zxyn.send5ButGif(m.chat, anu, '© ArullOfc', global.visoka, btn, global.thumb)
+                        zxyn.send5ButGif(m.chat, anu, '© Asrori Amin', global.visoka, btn, global.thumb)
                         } else if (setbot.templateVid) {
-                        zxyn.send5ButVid(m.chat, anu, '© ArullOfc', global.visoka, btn, global.thumb)
+                        zxyn.send5ButVid(m.chat, anu, '© Asrori Amin', global.visoka, btn, global.thumb)
                         } else if (setbot.templateMsg) {
-                        zxyn.send5ButMsg(m.chat, anu, '© ArullOfc', btn)
+                        zxyn.send5ButMsg(m.chat, anu, '© Asrori Amin', btn)
                         } else if (setbot.templateLocation) {
-                        zxyn.send5ButLoc(m.chat, anu, '© ArullOfc', global.thumb, btn)
+                        zxyn.send5ButLoc(m.chat, anu, '© Asrori Amin', global.thumb, btn)
                         }
                      }
             break
@@ -3700,12 +3697,12 @@ anu = `${ucapanWaktu} ${pushname}
 let btn = [{
                                 urlButton: {
                                     displayText: 'Youtube📽️',
-                                    url: 'https://youtube.com/channel/UC31AobZtVn1WxyM8h9gWC-w'
+                                    url: 'https://youtube.com/channel/UCaybv50unIvy2sNCfqigusw'
                                 }
                                 }, {
                                 urlButton: {
                                     displayText: 'Group Bot🔗',
-                                    url: 'https://chat.whatsapp.com/F6CAAOhrORm1sPdq6cRKAS'
+                                    url: 'https://chat.whatsapp.com/JK8R3UJVF1KKySPeisEWdS'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3725,15 +3722,15 @@ let btn = [{
                             }]
                          let setbot = db.data.settings[botNumber]
                         if (setbot.templateImage) {
-                        zxyn.send5ButImg(m.chat, anu, '© ArullOfc', global.thumb, btn, global.thumb)
+                        zxyn.send5ButImg(m.chat, anu, '© Asrori Amin', global.thumb, btn, global.thumb)
                         } else if (setbot.templateGif) {
-                        zxyn.send5ButGif(m.chat, anu, '© ArullOfc', global.visoka, btn, global.thumb)
+                        zxyn.send5ButGif(m.chat, anu, '© Asrori Amin', global.visoka, btn, global.thumb)
                         } else if (setbot.templateVid) {
-                        zxyn.send5ButVid(m.chat, anu, '© ArullOfc', global.visoka, btn, global.thumb)
+                        zxyn.send5ButVid(m.chat, anu, '© Asrori Amin', global.visoka, btn, global.thumb)
                         } else if (setbot.templateMsg) {
-                        zxyn.send5ButMsg(m.chat, anu, '© ArullOfc', btn)
+                        zxyn.send5ButMsg(m.chat, anu, '© Asrori Amin', btn)
                         } else if (setbot.templateLocation) {
-                        zxyn.send5ButLoc(m.chat, anu, '© ArullOfc', global.thumb, btn)
+                        zxyn.send5ButLoc(m.chat, anu, '© Asrori Amin', global.thumb, btn)
                         }
                      }
             break
@@ -3775,12 +3772,12 @@ anu = `${ucapanWaktu} ${pushname}
 let btn = [{
                                 urlButton: {
                                     displayText: 'Youtube📽️',
-                                    url: 'https://youtube.com/channel/UC31AobZtVn1WxyM8h9gWC-w'
+                                    url: 'https://youtube.com/channel/UCaybv50unIvy2sNCfqigusw'
                                 }
                                 }, {
                                 urlButton: {
                                     displayText: 'Group Bot🔗',
-                                    url: 'https://chat.whatsapp.com/F6CAAOhrORm1sPdq6cRKAS'
+                                    url: 'https://chat.whatsapp.com/JK8R3UJVF1KKySPeisEWdS'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3800,15 +3797,15 @@ let btn = [{
                             }]
                          let setbot = db.data.settings[botNumber]
                         if (setbot.templateImage) {
-                        zxyn.send5ButImg(m.chat, anu, '© ArullOfc', global.thumb, btn, global.thumb)
+                        zxyn.send5ButImg(m.chat, anu, '© Asrori Amin', global.thumb, btn, global.thumb)
                         } else if (setbot.templateGif) {
-                        zxyn.send5ButGif(m.chat, anu, '© ArullOfc', global.visoka, btn, global.thumb)
+                        zxyn.send5ButGif(m.chat, anu, '© Asrori Amin', global.visoka, btn, global.thumb)
                         } else if (setbot.templateVid) {
-                        zxyn.send5ButVid(m.chat, anu, '© ArullOfc', global.visoka, btn, global.thumb)
+                        zxyn.send5ButVid(m.chat, anu, '© Asrori Amin', global.visoka, btn, global.thumb)
                         } else if (setbot.templateMsg) {
-                        zxyn.send5ButMsg(m.chat, anu, '© ArullOfc', btn)
+                        zxyn.send5ButMsg(m.chat, anu, '© Asrori Amin', btn)
                         } else if (setbot.templateLocation) {
-                        zxyn.send5ButLoc(m.chat, anu, '© ArullOfc', global.thumb, btn)
+                        zxyn.send5ButLoc(m.chat, anu, '© Asrori Amin', global.thumb, btn)
                         }
                      }
             break
@@ -3853,12 +3850,12 @@ anu = `${ucapanWaktu} ${pushname}
 let btn = [{
                                 urlButton: {
                                     displayText: 'Youtube📽️',
-                                    url: 'https://youtube.com/channel/UC31AobZtVn1WxyM8h9gWC-w'
+                                    url: 'https://youtube.com/channel/UCaybv50unIvy2sNCfqigusw'
                                 }
                                 }, {
                                 urlButton: {
                                     displayText: 'Group Bot🔗',
-                                    url: 'https://chat.whatsapp.com/F6CAAOhrORm1sPdq6cRKAS'
+                                    url: 'https://chat.whatsapp.com/JK8R3UJVF1KKySPeisEWdS'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3878,15 +3875,15 @@ let btn = [{
                             }]
                          let setbot = db.data.settings[botNumber]
                         if (setbot.templateImage) {
-                        zxyn.send5ButImg(m.chat, anu, '© ArullOfc', global.thumb, btn, global.thumb)
+                        zxyn.send5ButImg(m.chat, anu, '© Asrori Amin', global.thumb, btn, global.thumb)
                         } else if (setbot.templateGif) {
-                        zxyn.send5ButGif(m.chat, anu, '© ArullOfc', global.visoka, btn, global.thumb)
+                        zxyn.send5ButGif(m.chat, anu, '© Asrori Amin', global.visoka, btn, global.thumb)
                         } else if (setbot.templateVid) {
-                        zxyn.send5ButVid(m.chat, anu, '© ArullOfc', global.visoka, btn, global.thumb)
+                        zxyn.send5ButVid(m.chat, anu, '© Asrori Amin', global.visoka, btn, global.thumb)
                         } else if (setbot.templateMsg) {
-                        zxyn.send5ButMsg(m.chat, anu, '© ArullOfc', btn)
+                        zxyn.send5ButMsg(m.chat, anu, '© Asrori Amin', btn)
                         } else if (setbot.templateLocation) {
-                        zxyn.send5ButLoc(m.chat, anu, '© ArullOfc', global.thumb, btn)
+                        zxyn.send5ButLoc(m.chat, anu, '© Asrori Amin', global.thumb, btn)
                         }
                      }
             break
@@ -3949,12 +3946,12 @@ anu = `${ucapanWaktu} ${pushname}
 let btn = [{
                                 urlButton: {
                                     displayText: 'Youtube📽️',
-                                    url: 'https://youtube.com/channel/UC31AobZtVn1WxyM8h9gWC-w'
+                                    url: 'https://youtube.com/channel/UCaybv50unIvy2sNCfqigusw'
                                 }
                                 }, {
                                 urlButton: {
                                     displayText: 'Group Bot🔗',
-                                    url: 'https://chat.whatsapp.com/F6CAAOhrORm1sPdq6cRKAS'
+                                    url: 'https://chat.whatsapp.com/JK8R3UJVF1KKySPeisEWdS'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3974,15 +3971,15 @@ let btn = [{
                             }]
                          let setbot = db.data.settings[botNumber]
                         if (setbot.templateImage) {
-                        zxyn.send5ButImg(m.chat, anu, '© ArullOfc', global.thumb, btn, global.thumb)
+                        zxyn.send5ButImg(m.chat, anu, '© Asrori Amin', global.thumb, btn, global.thumb)
                         } else if (setbot.templateGif) {
-                        zxyn.send5ButGif(m.chat, anu, '© ArullOfc', global.visoka, btn, global.thumb)
+                        zxyn.send5ButGif(m.chat, anu, '© Asrori Amin', global.visoka, btn, global.thumb)
                         } else if (setbot.templateVid) {
-                        zxyn.send5ButVid(m.chat, anu, '© ArullOfc', global.visoka, btn, global.thumb)
+                        zxyn.send5ButVid(m.chat, anu, '© Asrori Amin', global.visoka, btn, global.thumb)
                         } else if (setbot.templateMsg) {
-                        zxyn.send5ButMsg(m.chat, anu, '© ArullOfc', btn)
+                        zxyn.send5ButMsg(m.chat, anu, '© Asrori Amin', btn)
                         } else if (setbot.templateLocation) {
-                        zxyn.send5ButLoc(m.chat, anu, '© ArullOfc', global.thumb, btn)
+                        zxyn.send5ButLoc(m.chat, anu, '© Asrori Amin', global.thumb, btn)
                         }
                      }
             break
@@ -4026,12 +4023,12 @@ anu = `${ucapanWaktu} ${pushname}
 let btn = [{
                                 urlButton: {
                                     displayText: 'Youtube📽️',
-                                    url: 'https://youtube.com/channel/UC31AobZtVn1WxyM8h9gWC-w'
+                                    url: 'https://youtube.com/channel/UCaybv50unIvy2sNCfqigusw'
                                 }
                                 }, {
                                 urlButton: {
                                     displayText: 'Group Bot🔗',
-                                    url: 'https://chat.whatsapp.com/F6CAAOhrORm1sPdq6cRKAS'
+                                    url: 'https://chat.whatsapp.com/JK8R3UJVF1KKySPeisEWdS'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -4051,15 +4048,15 @@ let btn = [{
                             }]
                          let setbot = db.data.settings[botNumber]
                         if (setbot.templateImage) {
-                        zxyn.send5ButImg(m.chat, anu, '© ArullOfc', global.thumb, btn, global.thumb)
+                        zxyn.send5ButImg(m.chat, anu, '© Asrori Amin', global.thumb, btn, global.thumb)
                         } else if (setbot.templateGif) {
-                        zxyn.send5ButGif(m.chat, anu, '© ArullOfc', global.visoka, btn, global.thumb)
+                        zxyn.send5ButGif(m.chat, anu, '© Asrori Amin', global.visoka, btn, global.thumb)
                         } else if (setbot.templateVid) {
-                        zxyn.send5ButVid(m.chat, anu, '© ArullOfc', global.visoka, btn, global.thumb)
+                        zxyn.send5ButVid(m.chat, anu, '© Asrori Amin', global.visoka, btn, global.thumb)
                         } else if (setbot.templateMsg) {
-                        zxyn.send5ButMsg(m.chat, anu, '© ArullOfc', btn)
+                        zxyn.send5ButMsg(m.chat, anu, '© Asrori Amin', btn)
                         } else if (setbot.templateLocation) {
-                        zxyn.send5ButLoc(m.chat, anu, '© ArullOfc', global.thumb, btn)
+                        zxyn.send5ButLoc(m.chat, anu, '© Asrori Amin', global.thumb, btn)
                         }
                      }
             break
@@ -4100,12 +4097,12 @@ anu = `${ucapanWaktu} ${pushname}
 let btn = [{
                                 urlButton: {
                                     displayText: 'Youtube📽️',
-                                    url: 'https://youtube.com/channel/UC31AobZtVn1WxyM8h9gWC-w'
+                                    url: 'https://youtube.com/channel/UCaybv50unIvy2sNCfqigusw'
                                 }
                                 }, {
                                 urlButton: {
                                     displayText: 'Group Bot🔗',
-                                    url: 'https://chat.whatsapp.com/F6CAAOhrORm1sPdq6cRKAS'
+                                    url: 'https://chat.whatsapp.com/JK8R3UJVF1KKySPeisEWdS'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -4125,15 +4122,15 @@ let btn = [{
                             }]
                          let setbot = db.data.settings[botNumber]
                         if (setbot.templateImage) {
-                        zxyn.send5ButImg(m.chat, anu, '© ArullOfc', global.thumb, btn, global.thumb)
+                        zxyn.send5ButImg(m.chat, anu, '© Asrori Amin', global.thumb, btn, global.thumb)
                         } else if (setbot.templateGif) {
-                        zxyn.send5ButGif(m.chat, anu, '© ArullOfc', global.visoka, btn, global.thumb)
+                        zxyn.send5ButGif(m.chat, anu, '© Asrori Amin', global.visoka, btn, global.thumb)
                         } else if (setbot.templateVid) {
-                        zxyn.send5ButVid(m.chat, anu, '© ArullOfc', global.visoka, btn, global.thumb)
+                        zxyn.send5ButVid(m.chat, anu, '© Asrori Amin', global.visoka, btn, global.thumb)
                         } else if (setbot.templateMsg) {
-                        zxyn.send5ButMsg(m.chat, anu, '© ArullOfc', btn)
+                        zxyn.send5ButMsg(m.chat, anu, '© Asrori Amin', btn)
                         } else if (setbot.templateLocation) {
-                        zxyn.send5ButLoc(m.chat, anu, '© ArullOfc', global.thumb, btn)
+                        zxyn.send5ButLoc(m.chat, anu, '© Asrori Amin', global.thumb, btn)
                         }
                      }
             break
@@ -4179,12 +4176,12 @@ anu = `${ucapanWaktu} ${pushname}
 let btn = [{
                                 urlButton: {
                                     displayText: 'Youtube📽️',
-                                    url: 'https://youtube.com/channel/UC31AobZtVn1WxyM8h9gWC-w'
+                                    url: 'https://youtube.com/channel/UCaybv50unIvy2sNCfqigusw'
                                 }
                                 }, {
                                 urlButton: {
                                     displayText: 'Group Bot🔗',
-                                    url: 'https://chat.whatsapp.com/F6CAAOhrORm1sPdq6cRKAS'
+                                    url: 'https://chat.whatsapp.com/JK8R3UJVF1KKySPeisEWdS'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -4204,15 +4201,15 @@ let btn = [{
                             }]
                          let setbot = db.data.settings[botNumber]
                         if (setbot.templateImage) {
-                        zxyn.send5ButImg(m.chat, anu, '© ArullOfc', global.thumb, btn, global.thumb)
+                        zxyn.send5ButImg(m.chat, anu, '© Asrori Amin', global.thumb, btn, global.thumb)
                         } else if (setbot.templateGif) {
-                        zxyn.send5ButGif(m.chat, anu, '© ArullOfc', global.visoka, btn, global.thumb)
+                        zxyn.send5ButGif(m.chat, anu, '© Asrori Amin', global.visoka, btn, global.thumb)
                         } else if (setbot.templateVid) {
-                        zxyn.send5ButVid(m.chat, anu, '© ArullOfc', global.visoka, btn, global.thumb)
+                        zxyn.send5ButVid(m.chat, anu, '© Asrori Amin', global.visoka, btn, global.thumb)
                         } else if (setbot.templateMsg) {
-                        zxyn.send5ButMsg(m.chat, anu, '© ArullOfc', btn)
+                        zxyn.send5ButMsg(m.chat, anu, '© Asrori Amin', btn)
                         } else if (setbot.templateLocation) {
-                        zxyn.send5ButLoc(m.chat, anu, '© ArullOfc', global.thumb, btn)
+                        zxyn.send5ButLoc(m.chat, anu, '© Asrori Amin', global.thumb, btn)
                         }
                      }
             break
@@ -4274,12 +4271,12 @@ anu = `${ucapanWaktu} ${pushname}
 let btn = [{
                                 urlButton: {
                                     displayText: 'Youtube📽️',
-                                    url: 'https://youtube.com/channel/UC31AobZtVn1WxyM8h9gWC-w'
+                                    url: 'https://youtube.com/channel/UCaybv50unIvy2sNCfqigusw'
                                 }
                                 }, {
                                 urlButton: {
                                     displayText: 'Group Bot🔗',
-                                    url: 'https://chat.whatsapp.com/F6CAAOhrORm1sPdq6cRKAS'
+                                    url: 'https://chat.whatsapp.com/JK8R3UJVF1KKySPeisEWdS'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -4299,15 +4296,15 @@ let btn = [{
                             }]
                          let setbot = db.data.settings[botNumber]
                         if (setbot.templateImage) {
-                        zxyn.send5ButImg(m.chat, anu, '© ArullOfc', global.thumb, btn, global.thumb)
+                        zxyn.send5ButImg(m.chat, anu, '© Asrori Amin', global.thumb, btn, global.thumb)
                         } else if (setbot.templateGif) {
-                        zxyn.send5ButGif(m.chat, anu, '© ArullOfc', global.visoka, btn, global.thumb)
+                        zxyn.send5ButGif(m.chat, anu, '© Asrori Amin', global.visoka, btn, global.thumb)
                         } else if (setbot.templateVid) {
-                        zxyn.send5ButVid(m.chat, anu, '© ArullOfc', global.visoka, btn, global.thumb)
+                        zxyn.send5ButVid(m.chat, anu, '© Asrori Amin', global.visoka, btn, global.thumb)
                         } else if (setbot.templateMsg) {
-                        zxyn.send5ButMsg(m.chat, anu, '© ArullOfc', btn)
+                        zxyn.send5ButMsg(m.chat, anu, '© Asrori Amin', btn)
                         } else if (setbot.templateLocation) {
-                        zxyn.send5ButLoc(m.chat, anu, '© ArullOfc', global.thumb, btn)
+                        zxyn.send5ButLoc(m.chat, anu, '© Asrori Amin', global.thumb, btn)
                         }
                      }
             break
@@ -4357,12 +4354,12 @@ anu = `${ucapanWaktu} ${pushname}
 let btn = [{
                                 urlButton: {
                                     displayText: 'Youtube📽️',
-                                    url: 'https://youtube.com/channel/UC31AobZtVn1WxyM8h9gWC-w'
+                                    url: 'https://youtube.com/channel/UCaybv50unIvy2sNCfqigusw'
                                 }
                                 }, {
                                 urlButton: {
                                     displayText: 'Group Bot🔗',
-                                    url: 'https://chat.whatsapp.com/F6CAAOhrORm1sPdq6cRKAS'
+                                    url: 'https://chat.whatsapp.com/JK8R3UJVF1KKySPeisEWdS'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -4382,15 +4379,15 @@ let btn = [{
                             }]
                          let setbot = db.data.settings[botNumber]
                         if (setbot.templateImage) {
-                        zxyn.send5ButImg(m.chat, anu, '© ArullOfc', global.thumb, btn, global.thumb)
+                        zxyn.send5ButImg(m.chat, anu, '© Asrori Amin', global.thumb, btn, global.thumb)
                         } else if (setbot.templateGif) {
-                        zxyn.send5ButGif(m.chat, anu, '© ArullOfc', global.visoka, btn, global.thumb)
+                        zxyn.send5ButGif(m.chat, anu, '© Asrori Amin', global.visoka, btn, global.thumb)
                         } else if (setbot.templateVid) {
-                        zxyn.send5ButVid(m.chat, anu, '© ArullOfc', global.visoka, btn, global.thumb)
+                        zxyn.send5ButVid(m.chat, anu, '© Asrori Amin', global.visoka, btn, global.thumb)
                         } else if (setbot.templateMsg) {
-                        zxyn.send5ButMsg(m.chat, anu, '© ArullOfc', btn)
+                        zxyn.send5ButMsg(m.chat, anu, '© Asrori Amin', btn)
                         } else if (setbot.templateLocation) {
-                        zxyn.send5ButLoc(m.chat, anu, '© ArullOfc', global.thumb, btn)
+                        zxyn.send5ButLoc(m.chat, anu, '© Asrori Amin', global.thumb, btn)
                         }
                      }
             break
@@ -4432,12 +4429,12 @@ anu = `${ucapanWaktu} ${pushname}
 let btn = [{
                                 urlButton: {
                                     displayText: 'Youtube📽️',
-                                    url: 'https://youtube.com/channel/UC31AobZtVn1WxyM8h9gWC-w'
+                                    url: 'https://youtube.com/channel/UCaybv50unIvy2sNCfqigusw'
                                 }
                                 }, {
                                 urlButton: {
                                     displayText: 'Group Bot🔗',
-                                    url: 'https://chat.whatsapp.com/F6CAAOhrORm1sPdq6cRKAS'
+                                    url: 'https://chat.whatsapp.com/JK8R3UJVF1KKySPeisEWdS'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -4457,15 +4454,15 @@ let btn = [{
                             }]
                          let setbot = db.data.settings[botNumber]
                         if (setbot.templateImage) {
-                        zxyn.send5ButImg(m.chat, anu, '© ArullOfc', global.thumb, btn, global.thumb)
+                        zxyn.send5ButImg(m.chat, anu, '© Asrori Amin', global.thumb, btn, global.thumb)
                         } else if (setbot.templateGif) {
-                        zxyn.send5ButGif(m.chat, anu, '© ArullOfc', global.visoka, btn, global.thumb)
+                        zxyn.send5ButGif(m.chat, anu, '© Asrori Amin', global.visoka, btn, global.thumb)
                         } else if (setbot.templateVid) {
-                        zxyn.send5ButVid(m.chat, anu, '© ArullOfc', global.visoka, btn, global.thumb)
+                        zxyn.send5ButVid(m.chat, anu, '© Asrori Amin', global.visoka, btn, global.thumb)
                         } else if (setbot.templateMsg) {
-                        zxyn.send5ButMsg(m.chat, anu, '© ArullOfc', btn)
+                        zxyn.send5ButMsg(m.chat, anu, '© Asrori Amin', btn)
                         } else if (setbot.templateLocation) {
-                        zxyn.send5ButLoc(m.chat, anu, '© ArullOfc', global.thumb, btn)
+                        zxyn.send5ButLoc(m.chat, anu, '© Asrori Amin', global.thumb, btn)
                         }
                      }
             break
@@ -4505,12 +4502,12 @@ anu = `${ucapanWaktu} ${pushname}
 let btn = [{
                                 urlButton: {
                                     displayText: 'Youtube📽️',
-                                    url: 'https://youtube.com/channel/UC31AobZtVn1WxyM8h9gWC-w'
+                                    url: 'https://youtube.com/channel/UCaybv50unIvy2sNCfqigusw'
                                 }
                                 }, {
                                 urlButton: {
                                     displayText: 'Group Bot🔗',
-                                    url: 'https://chat.whatsapp.com/F6CAAOhrORm1sPdq6cRKAS'
+                                    url: 'https://chat.whatsapp.com/JK8R3UJVF1KKySPeisEWdS'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -4530,15 +4527,15 @@ let btn = [{
                             }]
                          let setbot = db.data.settings[botNumber]
                         if (setbot.templateImage) {
-                        zxyn.send5ButImg(m.chat, anu, '© ArullOfc', global.thumb, btn, global.thumb)
+                        zxyn.send5ButImg(m.chat, anu, '© Asrori Amin', global.thumb, btn, global.thumb)
                         } else if (setbot.templateGif) {
-                        zxyn.send5ButGif(m.chat, anu, '© ArullOfc', global.visoka, btn, global.thumb)
+                        zxyn.send5ButGif(m.chat, anu, '© Asrori Amin', global.visoka, btn, global.thumb)
                         } else if (setbot.templateVid) {
-                        zxyn.send5ButVid(m.chat, anu, '© ArullOfc', global.visoka, btn, global.thumb)
+                        zxyn.send5ButVid(m.chat, anu, '© Asrori Amin', global.visoka, btn, global.thumb)
                         } else if (setbot.templateMsg) {
-                        zxyn.send5ButMsg(m.chat, anu, '© ArullOfc', btn)
+                        zxyn.send5ButMsg(m.chat, anu, '© Asrori Amin', btn)
                         } else if (setbot.templateLocation) {
-                        zxyn.send5ButLoc(m.chat, anu, '© ArullOfc', global.thumb, btn)
+                        zxyn.send5ButLoc(m.chat, anu, '© Asrori Amin', global.thumb, btn)
                         }
                      }
             break
@@ -4574,12 +4571,12 @@ anu = `${ucapanWaktu} ${pushname}
 let btn = [{
                                 urlButton: {
                                     displayText: 'Youtube📽️',
-                                    url: 'https://youtube.com/channel/UC31AobZtVn1WxyM8h9gWC-w'
+                                    url: 'https://youtube.com/channel/UCaybv50unIvy2sNCfqigusw'
                                 }
                                 }, {
                                 urlButton: {
                                     displayText: 'Group Bot🔗',
-                                    url: 'https://chat.whatsapp.com/F6CAAOhrORm1sPdq6cRKAS'
+                                    url: 'https://chat.whatsapp.com/JK8R3UJVF1KKySPeisEWdS'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -4599,15 +4596,15 @@ let btn = [{
                             }]
                          let setbot = db.data.settings[botNumber]
                         if (setbot.templateImage) {
-                        zxyn.send5ButImg(m.chat, anu, '© ArullOfc', global.thumb, btn, global.thumb)
+                        zxyn.send5ButImg(m.chat, anu, '© Asrori Amin', global.thumb, btn, global.thumb)
                         } else if (setbot.templateGif) {
-                        zxyn.send5ButGif(m.chat, anu, '© ArullOfc', global.visoka, btn, global.thumb)
+                        zxyn.send5ButGif(m.chat, anu, '© Asrori Amin', global.visoka, btn, global.thumb)
                         } else if (setbot.templateVid) {
-                        zxyn.send5ButVid(m.chat, anu, '© ArullOfc', global.visoka, btn, global.thumb)
+                        zxyn.send5ButVid(m.chat, anu, '© Asrori Amin', global.visoka, btn, global.thumb)
                         } else if (setbot.templateMsg) {
-                        zxyn.send5ButMsg(m.chat, anu, '© ArullOfc', btn)
+                        zxyn.send5ButMsg(m.chat, anu, '© Asrori Amin', btn)
                         } else if (setbot.templateLocation) {
-                        zxyn.send5ButLoc(m.chat, anu, '© ArullOfc', global.thumb, btn)
+                        zxyn.send5ButLoc(m.chat, anu, '© Asrori Amin', global.thumb, btn)
                         }
                      }
             break
@@ -4644,12 +4641,12 @@ anu = `${ucapanWaktu} ${pushname}
 let btn = [{
                                 urlButton: {
                                     displayText: 'Youtube📽️',
-                                    url: 'https://youtube.com/channel/UC31AobZtVn1WxyM8h9gWC-w'
+                                    url: 'https://youtube.com/channel/UCaybv50unIvy2sNCfqigusw'
                                 }
                                 }, {
                                 urlButton: {
                                     displayText: 'Group Bot🔗',
-                                    url: 'https://chat.whatsapp.com/F6CAAOhrORm1sPdq6cRKAS'
+                                    url: 'https://chat.whatsapp.com/JK8R3UJVF1KKySPeisEWdS'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -4669,15 +4666,15 @@ let btn = [{
                             }]
                          let setbot = db.data.settings[botNumber]
                         if (setbot.templateImage) {
-                        zxyn.send5ButImg(m.chat, anu, '© ArullOfc', global.thumb, btn, global.thumb)
+                        zxyn.send5ButImg(m.chat, anu, '© Asrori Amin', global.thumb, btn, global.thumb)
                         } else if (setbot.templateGif) {
-                        zxyn.send5ButGif(m.chat, anu, '© ArullOfc', global.visoka, btn, global.thumb)
+                        zxyn.send5ButGif(m.chat, anu, '© Asrori Amin', global.visoka, btn, global.thumb)
                         } else if (setbot.templateVid) {
-                        zxyn.send5ButVid(m.chat, anu, '© ArullOfc', global.visoka, btn, global.thumb)
+                        zxyn.send5ButVid(m.chat, anu, '© Asrori Amin', global.visoka, btn, global.thumb)
                         } else if (setbot.templateMsg) {
-                        zxyn.send5ButMsg(m.chat, anu, '© ArullOfc', btn)
+                        zxyn.send5ButMsg(m.chat, anu, '© Asrori Amin', btn)
                         } else if (setbot.templateLocation) {
-                        zxyn.send5ButLoc(m.chat, anu, '© ArullOfc', global.thumb, btn)
+                        zxyn.send5ButLoc(m.chat, anu, '© Asrori Amin', global.thumb, btn)
                         }
                      }
             break
@@ -4720,12 +4717,12 @@ anu = `${ucapanWaktu} ${pushname}
 let btn = [{
                                 urlButton: {
                                     displayText: 'Youtube📽️',
-                                    url: 'https://youtube.com/channel/UC31AobZtVn1WxyM8h9gWC-w'
+                                    url: 'https://youtube.com/channel/UCaybv50unIvy2sNCfqigusw'
                                 }
                                 }, {
                                 urlButton: {
                                     displayText: 'Group Bot🔗',
-                                    url: 'https://chat.whatsapp.com/F6CAAOhrORm1sPdq6cRKAS'
+                                    url: 'https://chat.whatsapp.com/JK8R3UJVF1KKySPeisEWdS'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -4745,91 +4742,91 @@ let btn = [{
                             }]
                          let setbot = db.data.settings[botNumber]
                         if (setbot.templateImage) {
-                        zxyn.send5ButImg(m.chat, anu, '© ArullOfc', global.thumb, btn, global.thumb)
+                        zxyn.send5ButImg(m.chat, anu, '© Asrori Amin', global.thumb, btn, global.thumb)
                         } else if (setbot.templateGif) {
-                        zxyn.send5ButGif(m.chat, anu, '© ArullOfc', global.visoka, btn, global.thumb)
+                        zxyn.send5ButGif(m.chat, anu, '© Asrori Amin', global.visoka, btn, global.thumb)
                         } else if (setbot.templateVid) {
-                        zxyn.send5ButVid(m.chat, anu, '© ArullOfc', global.visoka, btn, global.thumb)
+                        zxyn.send5ButVid(m.chat, anu, '© Asrori Amin', global.visoka, btn, global.thumb)
                         } else if (setbot.templateMsg) {
-                        zxyn.send5ButMsg(m.chat, anu, '© ArullOfc', btn)
+                        zxyn.send5ButMsg(m.chat, anu, '© Asrori Amin', btn)
                         } else if (setbot.templateLocation) {
-                        zxyn.send5ButLoc(m.chat, anu, '© ArullOfc', global.thumb, btn)
+                        zxyn.send5ButLoc(m.chat, anu, '© Asrori Amin', global.thumb, btn)
                         }
                      }
             break
                    
             case 'menu': case 'help': case '?': {
-                anu = `${ucapanWaktu} ${pushname}\n\nSaya ${global.namabot}, Bot Ini Adalah Beta Multi Device WhatsApp.\n\n${global.namabot} Adalah Hasil Recode ${global.namaowner} Menggunakan sc dari ZxynOfc (YosaArdn).\n\nJika Kamu Menemukan Semacam Bug Atau Kesalahan Harap Lapor Ke Owner Agar Segera Di Perbaiki😁`
+                anu = `${ucapanWaktu} ${pushname}\n\nSaya ${global.namabot}, Bot Ini Adalah Bot Anonymous WhatsApp .\nSemoga Dapet Bersenang-senang Dan Dapat Teman Baru\nPilih Tombol Mulai Di Bawah Ini Untuk Menemukan Patner/Teman😁`
                 let btn = [{
                                 urlButton: {
-                                    displayText: 'Youtube📽️',
-                                    url: 'https://youtu.be/9OvUdX8Xuv0'
+                                    displayText: 'Instagram📽️',
+                                    url: 'http://instagram.com/saya_asroriamin'
                                 }
                                 }, {
                                 urlButton: {
                                     displayText: 'Group Bot🔗',
-                                    url: 'https://chat.whatsapp.com/F6CAAOhrORm1sPdq6cRKAS'
+                                    url: 'https://chat.whatsapp.com/JK8R3UJVF1KKySPeisEWdS'
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'Rules❗',
-                                    id: 'rules'
+                                    displayText: 'Mulai',
+                                    id: 'mulai'
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'Owner👤',
-                                    id: 'owner'
+                                    displayText: 'Next',
+                                    id: 'next'
                                 }  
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'Tampilkan Menu📚',
-                                    id: 'command'
+                                    displayText: 'Stop',
+                                    id: 'stop'
                                 }
                             }]
                          let setbot = db.data.settings[botNumber]
                         if (setbot.templateImage) {
-                        zxyn.send5ButImg(m.chat, anu, '© ArullOfc', global.thumb, btn, global.thumb)
+                        zxyn.send5ButImg(m.chat, anu, '© Asrori Amin', global.thumb, btn, global.thumb)
                         } else if (setbot.templateGif) {
-                        zxyn.send5ButGif(m.chat, anu, '© ArullOfc', global.visoka, btn, global.thumb)
+                        zxyn.send5ButGif(m.chat, anu, '© Asrori Amin', global.visoka, btn, global.thumb)
                         } else if (setbot.templateVid) {
-                        zxyn.send5ButVid(m.chat, anu, '© ArullOfc', global.visoka, btn, global.thumb)
+                        zxyn.send5ButVid(m.chat, anu, '© Asrori Amin', global.visoka, btn, global.thumb)
                         } else if (setbot.templateMsg) {
-                        zxyn.send5ButMsg(m.chat, anu, '© ArullOfc', btn)
+                        zxyn.send5ButMsg(m.chat, anu, '© Asrori Amin', btn)
                         } else if (setbot.templateLocation) {
-                        zxyn.send5ButLoc(m.chat, anu, '© ArullOfc', global.thumb, btn)
+                        zxyn.send5ButLoc(m.chat, anu, '© Asrori Amin', global.thumb, btn)
                         }
                      }
             break
 
 case 'donasi': {
 anu = `╭─❏ *『 DONASI 』*
-│ ➪ Dana : 085822347348
-│ ➪ Pulsa : 085822347348,083843192208
+│ ➪ Dana : 088227248988
+│ ➪ Pulsa : 088227248988,083843192208
 ╰───────────────❏
 
 *TERIMA KASIH BUAT YANG SUDAH MAU DONASI🤗*`
 let btn = [{
                                 urlButton: {
                                     displayText: 'Youtube📽️',
-                                    url: '085822347348'
+                                    url: '088227248988'
                                 }
                                 }, {
                                 urlButton: {
                                     displayText: 'Group Bot🔗',
-                                    url: 'https://chat.whatsapp.com/F6CAAOhrORm1sPdq6cRKAS'
+                                    url: 'https://chat.whatsapp.com/JK8R3UJVF1KKySPeisEWdS'
                                 }
                             }]
                          let setbot = db.data.settings[botNumber]
                         if (setbot.templateImage) {
-                        zxyn.send5ButImg(m.chat, anu, '© ArullOfc', global.thumb, btn, global.thumb)
+                        zxyn.send5ButImg(m.chat, anu, '© Asrori Amin', global.thumb, btn, global.thumb)
                         } else if (setbot.templateGif) {
-                        zxyn.send5ButGif(m.chat, anu, '© ArullOfc', global.visoka, btn, global.thumb)
+                        zxyn.send5ButGif(m.chat, anu, '© Asrori Amin', global.visoka, btn, global.thumb)
                         } else if (setbot.templateVid) {
-                        zxyn.send5ButVid(m.chat, anu, '© ArullOfc', global.visoka, btn, global.thumb)
+                        zxyn.send5ButVid(m.chat, anu, '© Asrori Amin', global.visoka, btn, global.thumb)
                         } else if (setbot.templateMsg) {
-                        zxyn.send5ButMsg(m.chat, anu, '© ArullOfc', btn)
+                        zxyn.send5ButMsg(m.chat, anu, '© Asrori Amin', btn)
                         } else if (setbot.templateLocation) {
-                        zxyn.send5ButLoc(m.chat, anu, '© ArullOfc', global.thumb, btn)
+                        zxyn.send5ButLoc(m.chat, anu, '© Asrori Amin', global.thumb, btn)
                         }
                      }
             break
@@ -4892,12 +4889,12 @@ Ini`
 let btn = [{
                                 urlButton: {
                                     displayText: 'Youtube📽️',
-                                    url: 'https://youtube.com/channel/UC31AobZtVn1WxyM8h9gWC-w'
+                                    url: 'https://youtube.com/channel/UCaybv50unIvy2sNCfqigusw'
                                 }
                                 }, {
                                 urlButton: {
                                     displayText: 'Group Bot🔗',
-                                    url: 'https://chat.whatsapp.com/F6CAAOhrORm1sPdq6cRKAS'
+                                    url: 'https://chat.whatsapp.com/JK8R3UJVF1KKySPeisEWdS'
                                 }
                                 }, {
                                 quickReplyButton: {
@@ -4917,15 +4914,15 @@ let btn = [{
                             }]
                          let setbot = db.data.settings[botNumber]
                         if (setbot.templateImage) {
-                        zxyn.send5ButImg(m.chat, anu, '© ArullOfc', global.thumb, btn, global.thumb)
+                        zxyn.send5ButImg(m.chat, anu, '© Asrori Amin', global.thumb, btn, global.thumb)
                         } else if (setbot.templateGif) {
-                        zxyn.send5ButGif(m.chat, anu, '© ArullOfc', global.visoka, btn, global.thumb)
+                        zxyn.send5ButGif(m.chat, anu, '© Asrori Amin', global.visoka, btn, global.thumb)
                         } else if (setbot.templateVid) {
-                        zxyn.send5ButVid(m.chat, anu, '© ArullOfc', global.visoka, btn, global.thumb)
+                        zxyn.send5ButVid(m.chat, anu, '© Asrori Amin', global.visoka, btn, global.thumb)
                         } else if (setbot.templateMsg) {
-                        zxyn.send5ButMsg(m.chat, anu, '© ArullOfc', btn)
+                        zxyn.send5ButMsg(m.chat, anu, '© Asrori Amin', btn)
                         } else if (setbot.templateLocation) {
-                        zxyn.send5ButLoc(m.chat, anu, '© ArullOfc', global.thumb, btn)
+                        zxyn.send5ButLoc(m.chat, anu, '© Asrori Amin', global.thumb, btn)
                         }
                      }
             break
@@ -4938,18 +4935,18 @@ case 'contributor': {
 •Fandy 
 •Abuzz 
 •Sonel 
-•ArullOfc
+•Asrori Amin
 Penyedia Rest Api :
 https://zenzapis.xyz`
 	let btn = [{
                                 urlButton: {
                                     displayText: 'Youtube📽️',
-                                    url: 'https://youtube.com/channel/UC31AobZtVn1WxyM8h9gWC-w'
+                                    url: 'https://youtube.com/channel/UCaybv50unIvy2sNCfqigusw'
                                 }
                                 }, {
                                 urlButton: {
                                     displayText: 'Group Bot🔗',
-                                    url: 'https://chat.whatsapp.com/F6CAAOhrORm1sPdq6cRKAS'
+                                    url: 'https://chat.whatsapp.com/JK8R3UJVF1KKySPeisEWdS'
                                 }
                                 }, {
                                 quickReplyButton: {
@@ -4969,15 +4966,15 @@ https://zenzapis.xyz`
                             }]
                          let setbot = db.data.settings[botNumber]
                         if (setbot.templateImage) {
-                        zxyn.send5ButImg(m.chat, anu, '© ArullOfc', global.thumb, btn, global.thumb)
+                        zxyn.send5ButImg(m.chat, anu, '© Asrori Amin', global.thumb, btn, global.thumb)
                         } else if (setbot.templateGif) {
-                        zxyn.send5ButGif(m.chat, anu, '© ArullOfc', global.visoka, btn, global.thumb)
+                        zxyn.send5ButGif(m.chat, anu, '© Asrori Amin', global.visoka, btn, global.thumb)
                         } else if (setbot.templateVid) {
-                        zxyn.send5ButVid(m.chat, anu, '© ArullOfc', global.visoka, btn, global.thumb)
+                        zxyn.send5ButVid(m.chat, anu, '© Asrori Amin', global.visoka, btn, global.thumb)
                         } else if (setbot.templateMsg) {
-                        zxyn.send5ButMsg(m.chat, anu, '© ArullOfc', btn)
+                        zxyn.send5ButMsg(m.chat, anu, '© Asrori Amin', btn)
                         } else if (setbot.templateLocation) {
-                        zxyn.send5ButLoc(m.chat, anu, '© ArullOfc', global.thumb, btn)
+                        zxyn.send5ButLoc(m.chat, anu, '© Asrori Amin', global.thumb, btn)
                         }
                      }
             break
