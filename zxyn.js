@@ -4759,7 +4759,7 @@ let btn = [{
             break
                    
             case 'menu': case 'help': case '?': {
-                anu = `${ucapanWaktu} ${pushname}\n\nSaya ${global.namabot}, Bot Ini Adalah Beta Multi Device WhatsApp.\n\n${global.namabot} Adalah Hasil Recode ${global.namaowner} Menggunakan sc dari ZxynOfc (YosaArdn).\n\nJika Kamu Menemukan Semacam Bug Atau Kesalahan Harap Lapor Ke Owner Agar Segera Di Perbaiki😁`
+                anu = `${ucapanWaktu} ${pushname}\n\nSaya ${global.namabot}, Bot Ini Adalah Bot Anonymous Chat Whatsapp.\n\n${global.namabot} Adalah Bot Yang Di Buat Oleh : ${global.namaowner}.\n\nTekan Tombol Start Dibawah Untuk Mencari Partner/Teman/Pasangan😁`
                 let btn = [{
                                 urlButton: {
                                     displayText: 'Instagram',
