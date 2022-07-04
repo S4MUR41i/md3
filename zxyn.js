@@ -190,7 +190,7 @@ _sewa.expiredCheck(zxyn, sewa)
 	    let setting = global.db.data.settings[botNumber]
 	    if (new Date() * 1 - setting.status > 1000) {
 		let uptime = await runtime(process.uptime())
-		await zxyn.setStatus(`${'Asrori Amin'} | Runtime : ${runtime(uptime)}`)
+		await zxyn.setStatus(`${'©Asrori Amin'} | Runtime : ${runtime(uptime)}`)
 		setting.status = new Date() * 1
 	    }
 	}
@@ -261,7 +261,7 @@ ${Array.from(room.jawaban, (jawaban, index) => {
             kuis = true
             jawaban = tebaklagu[m.sender.split('@')[0]]
             if (budy.toLowerCase() == jawaban) {
-                await zxyn.sendButtonText(m.chat, [{ buttonId: 'tebak lagu', buttonText: { displayText: 'Tebak Lagu' }, type: 1 }], `🎮 Tebak Lagu 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, 'Asrori Amin', m)
+                await zxyn.sendButtonText(m.chat, [{ buttonId: 'tebak lagu', buttonText: { displayText: 'Tebak Lagu' }, type: 1 }], `🎮 Tebak Lagu 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, '© ZxynOfc', m)
                 delete tebaklagu[m.sender.split('@')[0]]
             } else m.reply('*Jawaban Salah!*')
         }
@@ -279,7 +279,7 @@ ${Array.from(room.jawaban, (jawaban, index) => {
             kuis = true
             jawaban = tebakgambar[m.sender.split('@')[0]]
             if (budy.toLowerCase() == jawaban) {
-                await zxyn.sendButtonText(m.chat, [{ buttonId: 'tebak gambar', buttonText: { displayText: 'Tebak Gambar' }, type: 1 }], `🎮 Tebak Gambar 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, 'Asrori Amin', m)
+                await zxyn.sendButtonText(m.chat, [{ buttonId: 'tebak gambar', buttonText: { displayText: 'Tebak Gambar' }, type: 1 }], `🎮 Tebak Gambar 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, '© ZxynOfc', m)
                 delete tebakgambar[m.sender.split('@')[0]]
             } else m.reply('*Jawaban Salah!*')
         }
@@ -288,7 +288,7 @@ ${Array.from(room.jawaban, (jawaban, index) => {
             kuis = true
             jawaban = tebakkata[m.sender.split('@')[0]]
             if (budy.toLowerCase() == jawaban) {
-                await zxyn.sendButtonText(m.chat, [{ buttonId: 'tebak kata', buttonText: { displayText: 'Tebak Kata' }, type: 1 }], `🎮 Tebak Kata 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, 'Asrori Amin', m)
+                await zxyn.sendButtonText(m.chat, [{ buttonId: 'tebak kata', buttonText: { displayText: 'Tebak Kata' }, type: 1 }], `🎮 Tebak Kata 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, '© ZxynOfc', m)
                 delete tebakkata[m.sender.split('@')[0]]
             } else m.reply('*Jawaban Salah!*')
         }
@@ -298,7 +298,7 @@ ${Array.from(room.jawaban, (jawaban, index) => {
             jawaban = caklontong[m.sender.split('@')[0]]
 	    deskripsi = caklontong_desk[m.sender.split('@')[0]]
             if (budy.toLowerCase() == jawaban) {
-                await zxyn.sendButtonText(m.chat, [{ buttonId: 'tebak lontong', buttonText: { displayText: 'Tebak Lontong' }, type: 1 }], `🎮 Cak Lontong 🎮\n\nJawaban Benar 🎉\n*${deskripsi}*\n\nIngin bermain lagi? tekan button dibawah`, 'Asrori Amin', m)
+                await zxyn.sendButtonText(m.chat, [{ buttonId: 'tebak lontong', buttonText: { displayText: 'Tebak Lontong' }, type: 1 }], `🎮 Cak Lontong 🎮\n\nJawaban Benar 🎉\n*${deskripsi}*\n\nIngin bermain lagi? tekan button dibawah`, '© ZxynOfc', m)
                 delete caklontong[m.sender.split('@')[0]]
 		delete caklontong_desk[m.sender.split('@')[0]]
             } else m.reply('*Jawaban Salah!*')
@@ -308,7 +308,7 @@ ${Array.from(room.jawaban, (jawaban, index) => {
             kuis = true
             jawaban = tebakkalimat[m.sender.split('@')[0]]
             if (budy.toLowerCase() == jawaban) {
-                await zxyn.sendButtonText(m.chat, [{ buttonId: 'tebak kalimat', buttonText: { displayText: 'Tebak Kalimat' }, type: 1 }], `🎮 Tebak Kalimat 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, 'Asrori Amin', m)
+                await zxyn.sendButtonText(m.chat, [{ buttonId: 'tebak kalimat', buttonText: { displayText: 'Tebak Kalimat' }, type: 1 }], `🎮 Tebak Kalimat 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, '© ZxynOfc', m)
                 delete tebakkalimat[m.sender.split('@')[0]]
             } else m.reply('*Jawaban Salah!*')
         }
@@ -317,7 +317,7 @@ ${Array.from(room.jawaban, (jawaban, index) => {
             kuis = true
             jawaban = tebaklirik[m.sender.split('@')[0]]
             if (budy.toLowerCase() == jawaban) {
-                await zxyn.sendButtonText(m.chat, [{ buttonId: 'tebak lirik', buttonText: { displayText: 'Tebak Lirik' }, type: 1 }], `🎮 Tebak Lirik 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, 'Asrori Amin', m)
+                await zxyn.sendButtonText(m.chat, [{ buttonId: 'tebak lirik', buttonText: { displayText: 'Tebak Lirik' }, type: 1 }], `🎮 Tebak Lirik 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, '© ZxynOfc', m)
                 delete tebaklirik[m.sender.split('@')[0]]
             } else m.reply('*Jawaban Salah!*')
         }
@@ -326,7 +326,7 @@ ${Array.from(room.jawaban, (jawaban, index) => {
             kuis = true
             jawaban = tebaktebakan[m.sender.split('@')[0]]
             if (budy.toLowerCase() == jawaban) {
-                await zxyn.sendButtonText(m.chat, [{ buttonId: 'tebak tebakan', buttonText: { displayText: 'Tebak Tebakan' }, type: 1 }], `🎮 Tebak Tebakan 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, 'Asrori Amin', m)
+                await zxyn.sendButtonText(m.chat, [{ buttonId: 'tebak tebakan', buttonText: { displayText: 'Tebak Tebakan' }, type: 1 }], `🎮 Tebak Tebakan 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, '© ZxynOfc', m)
                 delete tebaktebakan[m.sender.split('@')[0]]
             } else m.reply('*Jawaban Salah!*')
         }
@@ -597,23 +597,26 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
             case 'sc': {
                 anu = `*Base Ori : Dika Ardnt*
 https://github.com/DikaArdnt
+
+*Recode By : Asrori Amin*
+https://youtu.be/9OvUdX8Xuv0`
 let btn = [{
                                 urlButton: {
                                     displayText: 'Source Code',
-                                    url: 'https://github.com/DikaArdnt'
+                                    url: 'https://youtu.be/9OvUdX8Xuv0'
                                 }
                             }]
                          let setbot = db.data.settings[botNumber]
                         if (setbot.templateImage) {
-                        zxyn.send5ButImg(m.chat, anu, 'Asrori Amin', global.thumb, btn, global.thumb)
+                        zxyn.send5ButImg(m.chat, anu, '©Asrori Amin', global.thumb, btn, global.thumb)
                         } else if (setbot.templateGif) {
-                        zxyn.send5ButGif(m.chat, anu, 'Asrori Amin', global.visoka, btn, global.thumb)
+                        zxyn.send5ButGif(m.chat, anu, '©Asrori Amin', global.visoka, btn, global.thumb)
                         } else if (setbot.templateVid) {
-                        zxyn.send5ButVid(m.chat, anu, 'Asrori Amin', global.visoka, btn, global.thumb)
+                        zxyn.send5ButVid(m.chat, anu, '©Asrori Amin', global.visoka, btn, global.thumb)
                         } else if (setbot.templateMsg) {
-                        zxyn.send5ButMsg(m.chat, anu, 'Asrori Amin', btn)
+                        zxyn.send5ButMsg(m.chat, anu, '©Asrori Amin', btn)
                         } else if (setbot.templateLocation) {
-                        zxyn.send5ButLoc(m.chat, anu, 'Asrori Amin', global.thumb, btn)
+                        zxyn.send5ButLoc(m.chat, anu, '©Asrori Amin', global.thumb, btn)
                         }
                      }
             break
@@ -673,7 +676,7 @@ let btn = [{
                     await sleep(60000)
                     if (tebaklagu.hasOwnProperty(m.sender.split('@')[0])) {
                     console.log("Jawaban: " + result.jawaban)
-                    zxyn.sendButtonText(m.chat, [{ buttonId: 'tebak lagu', buttonText: { displayText: 'Tebak Lagu' }, type: 1 }], `Waktu Habis\nJawaban:  ${tebaklagu[m.sender.split('@')[0]]}\n\nIngin bermain? tekan button dibawah`, 'Asrori Amin', m)
+                    zxyn.sendButtonText(m.chat, [{ buttonId: 'tebak lagu', buttonText: { displayText: 'Tebak Lagu' }, type: 1 }], `Waktu Habis\nJawaban:  ${tebaklagu[m.sender.split('@')[0]]}\n\nIngin bermain? tekan button dibawah`, '© ZxynOfc', m)
                     delete tebaklagu[m.sender.split('@')[0]]
                     }
                 } else if (args[0] === 'gambar') {
@@ -686,7 +689,7 @@ let btn = [{
                     await sleep(60000)
                     if (tebakgambar.hasOwnProperty(m.sender.split('@')[0])) {
                     console.log("Jawaban: " + result.jawaban)
-                    zxyn.sendButtonText(m.chat, [{ buttonId: 'tebak gambar', buttonText: { displayText: 'Tebak Gambar' }, type: 1 }], `Waktu Habis\nJawaban:  ${tebakgambar[m.sender.split('@')[0]]}\n\nIngin bermain? tekan button dibawah`, 'Asrori Amin', m)
+                    zxyn.sendButtonText(m.chat, [{ buttonId: 'tebak gambar', buttonText: { displayText: 'Tebak Gambar' }, type: 1 }], `Waktu Habis\nJawaban:  ${tebakgambar[m.sender.split('@')[0]]}\n\nIngin bermain? tekan button dibawah`, '© ZxynOfc', m)
                     delete tebakgambar[m.sender.split('@')[0]]
                     }
                 } else if (args[0] === 'kata') {
@@ -699,7 +702,7 @@ let btn = [{
                     await sleep(60000)
                     if (tebakkata.hasOwnProperty(m.sender.split('@')[0])) {
                     console.log("Jawaban: " + result.jawaban)
-                    zxyn.sendButtonText(m.chat, [{ buttonId: 'tebak kata', buttonText: { displayText: 'Tebak Kata' }, type: 1 }], `Waktu Habis\nJawaban:  ${tebakkata[m.sender.split('@')[0]]}\n\nIngin bermain? tekan button dibawah`, 'Asrori Amin', m)
+                    zxyn.sendButtonText(m.chat, [{ buttonId: 'tebak kata', buttonText: { displayText: 'Tebak Kata' }, type: 1 }], `Waktu Habis\nJawaban:  ${tebakkata[m.sender.split('@')[0]]}\n\nIngin bermain? tekan button dibawah`, '© ZxynOfc', m)
                     delete tebakkata[m.sender.split('@')[0]]
                     }
                 } else if (args[0] === 'kalimat') {
@@ -712,7 +715,7 @@ let btn = [{
                     await sleep(60000)
                     if (tebakkalimat.hasOwnProperty(m.sender.split('@')[0])) {
                     console.log("Jawaban: " + result.jawaban)
-                    zxyn.sendButtonText(m.chat, [{ buttonId: 'tebak kalimat', buttonText: { displayText: 'Tebak Kalimat' }, type: 1 }], `Waktu Habis\nJawaban:  ${tebakkalimat[m.sender.split('@')[0]]}\n\nIngin bermain? tekan button dibawah`, 'Asrori Amin', m)
+                    zxyn.sendButtonText(m.chat, [{ buttonId: 'tebak kalimat', buttonText: { displayText: 'Tebak Kalimat' }, type: 1 }], `Waktu Habis\nJawaban:  ${tebakkalimat[m.sender.split('@')[0]]}\n\nIngin bermain? tekan button dibawah`, '© ZxynOfc', m)
                     delete tebakkalimat[m.sender.split('@')[0]]
                     }
                 } else if (args[0] === 'lirik') {
@@ -725,7 +728,7 @@ let btn = [{
                     await sleep(60000)
                     if (tebaklirik.hasOwnProperty(m.sender.split('@')[0])) {
                     console.log("Jawaban: " + result.jawaban)
-                    zxyn.sendButtonText(m.chat, [{ buttonId: 'tebak lirik', buttonText: { displayText: 'Tebak Lirik' }, type: 1 }], `Waktu Habis\nJawaban:  ${tebaklirik[m.sender.split('@')[0]]}\n\nIngin bermain? tekan button dibawah`, 'Asrori Amin', m)
+                    zxyn.sendButtonText(m.chat, [{ buttonId: 'tebak lirik', buttonText: { displayText: 'Tebak Lirik' }, type: 1 }], `Waktu Habis\nJawaban:  ${tebaklirik[m.sender.split('@')[0]]}\n\nIngin bermain? tekan button dibawah`, '© ZxynOfc', m)
                     delete tebaklirik[m.sender.split('@')[0]]
                     }
                 } else if (args[0] === 'lontong') {
@@ -739,7 +742,7 @@ let btn = [{
                     await sleep(60000)
                     if (caklontong.hasOwnProperty(m.sender.split('@')[0])) {
                     console.log("Jawaban: " + result.jawaban)
-                    zxyn.sendButtonText(m.chat, [{ buttonId: 'tebak lontong', buttonText: { displayText: 'Tebak Lontong' }, type: 1 }], `Waktu Habis\nJawaban:  ${caklontong[m.sender.split('@')[0]]}\nDeskripsi : ${caklontong_desk[m.sender.split('@')[0]]}\n\nIngin bermain? tekan button dibawah`, 'Asrori Amin', m)
+                    zxyn.sendButtonText(m.chat, [{ buttonId: 'tebak lontong', buttonText: { displayText: 'Tebak Lontong' }, type: 1 }], `Waktu Habis\nJawaban:  ${caklontong[m.sender.split('@')[0]]}\nDeskripsi : ${caklontong_desk[m.sender.split('@')[0]]}\n\nIngin bermain? tekan button dibawah`, '© ZxynOfc', m)
                     delete caklontong[m.sender.split('@')[0]]
 		    delete caklontong_desk[m.sender.split('@')[0]]
                     }
@@ -1023,7 +1026,7 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
 
             let buttonMessageUpvote = {
                 text: teks_vote,
-                footer: 'Asrori Amin',
+                footer: '© ZxynOfc',
                 buttons: buttonsUpvote,
                 headerType: 1,
                 mentions: menvote
@@ -1173,17 +1176,17 @@ break
                 if (args[0] === "on") {
                 if (db.data.chats[m.chat].mute) return m.reply(`Sudah Aktif Sebelumnya`)
                 db.data.chats[m.chat].mute = true
-                m.reply(`${'Asrori Amin'} telah di mute di group ini !`)
+                m.reply(`${'© ZxynOfc'} telah di mute di group ini !`)
                 } else if (args[0] === "off") {
                 if (!db.data.chats[m.chat].mute) return m.reply(`Sudah Tidak Aktif Sebelumnya`)
                 db.data.chats[m.chat].mute = false
-                m.reply(`${'Asrori Amin'} telah di unmute di group ini !`)
+                m.reply(`${'© ZxynOfc'} telah di unmute di group ini !`)
                 } else {
                  let buttons = [
                         { buttonId: 'mute on', buttonText: { displayText: 'On' }, type: 1 },
                         { buttonId: 'mute off', buttonText: { displayText: 'Off' }, type: 1 }
                     ]
-                    await zxyn.sendButtonText(m.chat, buttons, `Mute Bot`, 'Asrori Amin', m)
+                    await zxyn.sendButtonText(m.chat, buttons, `Mute Bot`, '© ZxynOfc', m)
                 }
              }
              break
@@ -1218,7 +1221,7 @@ break
                 ]
                 },
                 ]
-                zxyn.sendListMsg(m.chat, `Please select the following Ephemeral Options List !`, 'Asrori Amin', `Hello Admin ${groupMetadata.subject}`, `Click Here`, sections, m)
+                zxyn.sendListMsg(m.chat, `Please select the following Ephemeral Options List !`, '© ZxynOfc', `Hello Admin ${groupMetadata.subject}`, `Click Here`, sections, m)
                 }
             }
             break
@@ -1241,12 +1244,12 @@ break
                     let btn = [{
                                 urlButton: {
                                     displayText: 'Youtube📽️',
-                                    url: 'https://youtube.com/channel/UCaybv50unIvy2sNCfqigusw'
+                                    url: 'https://youtube.com/channel/UC31AobZtVn1WxyM8h9gWC-w'
                                 }
                                 }, {
                                 urlButton: {
                                     displayText: 'Group Bot🔗',
-                                    url: 'https://chat.whatsapp.com/JK8R3UJVF1KKySPeisEWdS'
+                                    url: 'https://chat.whatsapp.com/F6CAAOhrORm1sPdq6cRKAS'
                                 }
                                 }, {
                                 quickReplyButton: {
@@ -1265,7 +1268,7 @@ break
                                 }
                             }]
                       let txt = `「 Broadcast Bot 」\n\n${text}`
-                      zxyn.send5ButImg(i, txt, 'Asrori Amin', global.thumb, btn)
+                      zxyn.send5ButImg(i, txt, '© ZxynOfc', global.thumb, btn)
                     }
                 m.reply(`Sukses Mengirim Broadcast Ke ${anu.length} Group`)
             }
@@ -1280,12 +1283,12 @@ break
 		    let btn = [{
                                 urlButton: {
                                     displayText: 'Youtube📽️',
-                                    url: 'https://youtube.com/channel/UCaybv50unIvy2sNCfqigusw'
+                                    url: 'https://youtube.com/channel/UC31AobZtVn1WxyM8h9gWC-w'
                                 }
                                 }, {
                                 urlButton: {
                                     displayText: 'Group Bot🔗',
-                                    url: 'https://chat.whatsapp.com/JK8R3UJVF1KKySPeisEWdS'
+                                    url: 'https://chat.whatsapp.com/F6CAAOhrORm1sPdq6cRKAS'
                                 }
                                 }, {
                                 quickReplyButton: {
@@ -1499,7 +1502,7 @@ break
             let media = await quoted.download()
             let { toAudio } = require('./lib/converter')
             let audio = await toAudio(media, 'mp4')
-            zxyn.sendMessage(m.chat, {document: audio, mimetype: 'audio/mpeg', fileName: `Convert By ${'Asrori Amin'}.mp3`}, { quoted : m })
+            zxyn.sendMessage(m.chat, {document: audio, mimetype: 'audio/mpeg', fileName: `Convert By ${'© ZxynOfc'}.mp3`}, { quoted : m })
             }
             break
             case 'tovn': case 'toptt': {
@@ -1713,7 +1716,7 @@ break
                 let buttonMessage = {
                     image: { url: 'https://coffee.alexflipnote.dev/random' },
                     caption: `☕ Random Coffe`,
-                    footer: 'Asrori Amin',
+                    footer: '© ZxynOfc',
                     buttons: buttons,
                     headerType: 4
                 }
@@ -2498,7 +2501,7 @@ Lihat list Pesan Dengan ${prefix}listmsg`)
 				let buttons = [
                     { buttonId: 'start', buttonText: { displayText: 'Start' }, type: 1 }
                 ]
-                zxyn.sendButtonText(m.chat, buttons, `\`\`\`Hi ${await zxyn.getName(m.sender)} Welcome To Anonymous Chat\n\nKlik Button Dibawah Ini Untuk Mencari Partner\`\`\``, 'Asrori Amin', m)
+                zxyn.sendButtonText(m.chat, buttons, `\`\`\`Hi ${await zxyn.getName(m.sender)} Welcome To Anonymous Chat\n\nKlik Button Dibawah Ini Untuk Mencari Partner\`\`\``, '© ZxynOfc', m)
             }
 			break
             case 'keluar': case 'leave': {
@@ -2525,7 +2528,7 @@ Lihat list Pesan Dengan ${prefix}listmsg`)
                     let buttons = [
                         { buttonId: 'keluar', buttonText: { displayText: 'Stop' }, type: 1 }
                     ]
-                    await zxyn.sendButtonText(m.chat, buttons, `\`\`\`Kamu Masih Berada Di dalam Sesi Anonymous, Tekan Button Dibawah Ini Untuk Menghentikan Sesi Anonymous Anda\`\`\``, 'Asrori Amin', m)
+                    await zxyn.sendButtonText(m.chat, buttons, `\`\`\`Kamu Masih Berada Di dalam Sesi Anonymous, Tekan Button Dibawah Ini Untuk Menghentikan Sesi Anonymous Anda\`\`\``, '© Asrori Amin', m)
                     throw false
                 }
                 let room = Object.values(this.anonymous).find(room => room.state === 'WAITING' && !room.check(m.sender))
@@ -2534,10 +2537,10 @@ Lihat list Pesan Dengan ${prefix}listmsg`)
                         { buttonId: 'next', buttonText: { displayText: 'Skip' }, type: 1 },
                         { buttonId: 'keluar', buttonText: { displayText: 'Stop' }, type: 1 }
                     ]
-                    await zxyn.sendButtonText(room.a, buttons, `\`\`\`Berhasil Menemukan Partner, sekarang kamu dapat mengirim pesan\`\`\``, 'Asrori Amin', m)
+                    await zxyn.sendButtonText(room.a, buttons, `\`\`\`Berhasil Menemukan Partner, sekarang kamu dapat mengirim pesan\`\`\``, '© Asrori Amin', m)
                     room.b = m.sender
                     room.state = 'CHATTING'
-                    await zxyn.sendButtonText(room.b, buttons, `\`\`\`Berhasil Menemukan Partner, sekarang kamu dapat mengirim pesan\`\`\``, 'Asrori Amin', m)
+                    await zxyn.sendButtonText(room.b, buttons, `\`\`\`Berhasil Menemukan Partner, sekarang kamu dapat mengirim pesan\`\`\``, '© Asrori Amin', m)
                 } else {
                     let id = + new Date
                     this.anonymous[id] = {
@@ -2555,7 +2558,7 @@ Lihat list Pesan Dengan ${prefix}listmsg`)
                     let buttons = [
                         { buttonId: 'keluar', buttonText: { displayText: 'Stop' }, type: 1 }
                     ]
-                    await zxyn.sendButtonText(m.chat, buttons, `\`\`\`Mohon Tunggu Sedang Mencari Partner\`\`\``, 'Asrori Amin', m)
+                    await zxyn.sendButtonText(m.chat, buttons, `\`\`\`Mohon Tunggu Sedang Mencari Partner\`\`\``, '© Asrori Amin', m)
                 }
                 break
             }
@@ -2579,10 +2582,10 @@ Lihat list Pesan Dengan ${prefix}listmsg`)
                         { buttonId: 'next', buttonText: { displayText: 'Skip' }, type: 1 },
                         { buttonId: 'keluar', buttonText: { displayText: 'Stop' }, type: 1 }
                     ]
-                    await zxyn.sendButtonText(room.a, buttons, `\`\`\`Berhasil Menemukan Partner, sekarang kamu dapat mengirim pesan\`\`\``, 'Asrori Amin', m)
+                    await zxyn.sendButtonText(room.a, buttons, `\`\`\`Berhasil Menemukan Partner, sekarang kamu dapat mengirim pesan\`\`\``, '© Asrori Amin', m)
                     room.b = m.sender
                     room.state = 'CHATTING'
-                    await zxyn.sendButtonText(room.b, buttons, `\`\`\`Berhasil Menemukan Partner, sekarang kamu dapat mengirim pesan\`\`\``, 'Asrori Amin', m)
+                    await zxyn.sendButtonText(room.b, buttons, `\`\`\`Berhasil Menemukan Partner, sekarang kamu dapat mengirim pesan\`\`\``, '© Asrori Amin', m)
                 } else {
                     let id = + new Date
                     this.anonymous[id] = {
@@ -2600,7 +2603,7 @@ Lihat list Pesan Dengan ${prefix}listmsg`)
                     let buttons = [
                         { buttonId: 'keluar', buttonText: { displayText: 'Stop' }, type: 1 }
                     ]
-                    await zxyn.sendButtonText(m.chat, buttons, `\`\`\`Mohon Tunggu Sedang Mencari Partner\`\`\``, 'Asrori Amin', m)
+                    await zxyn.sendButtonText(m.chat, buttons, `\`\`\`Mohon Tunggu Sedang Mencari Partner\`\`\``, '© Asrori Amin', m)
                 }
                 break
             }
@@ -2849,7 +2852,7 @@ let capt = `⭔ Title: ${judul}
                 ]
                 },
                 ]
-                zxyn.sendListMsg(m.chat, `Please select the menu you want to change!`, 'Asrori Amin', `Hello Owner !`, `Click Here`, sections, m)
+                zxyn.sendListMsg(m.chat, `Please select the menu you want to change!`, '© ZxynOfc', `Hello Owner !`, `Click Here`, sections, m)
                 }
             }
             break
@@ -2896,7 +2899,7 @@ anu = `╭──「 *SEWABOT* 」
 ├  DAN RATUSAN FITUR LAINYA
 ╰────
 ╭─[ *MINAT CHAT* ]
-├  🪀 wa.me/6288227248988?text=SEWABOT
+├  🪀 wa.me/6285822347348?text=SEWABOT
 ╰────
 ╭─[ *PAYMENT* ]
 ├  DANA
@@ -2904,8 +2907,8 @@ anu = `╭──「 *SEWABOT* 」
 ╰────`
 let btn = [{
                                 quickReplyButton: {
-                                    displayText: 'Gopay',
-                                    id: 'gopay'
+                                    displayText: 'Dana',
+                                    id: 'Dana'
                                 }
                                 }, {
                                 quickReplyButton: {
@@ -2931,16 +2934,16 @@ let btn = [{
                         zxyn.send5ButLoc(m.chat, anu, '© Asrori Amin', global.thumb, btn)
                         }
             break
-case 'gopay': {
-                zxyn.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/aef6646710362883c0003.jpg' }, caption: `Gopay` }, { quoted: m })
+case 'dana': {
+                zxyn.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/03c5633ef82ee488a6afc.jpg' }, caption: `Gopay` }, { quoted: m })
             }
             break
 case 'dana': {
-                zxyn.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/aef6646710362883c0003.jpg' }, caption: `DANA` }, { quoted: m })
+                zxyn.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/03c5633ef82ee488a6afc.jpg' }, caption: `DANA` }, { quoted: m })
             }
             break
 case 'pulsa': {
-m.reply('088227248988')
+m.reply('085822347348')
 }
 break
 // Button List
@@ -3386,7 +3389,7 @@ let btn = [{
                                 }, {
                                 urlButton: {
                                     displayText: 'Group Bot🔗',
-                                    url: 'https://chat.whatsapp.com/JK8R3UJVF1KKySPeisEWdS'
+                                    url: 'https://chat.whatsapp.com/F6CAAOhrORm1sPdq6cRKAS'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3458,12 +3461,12 @@ anu = `${ucapanWaktu} ${pushname}
 let btn = [{
                                 urlButton: {
                                     displayText: 'Youtube📽️',
-                                    url: 'https://youtube.com/channel/UCaybv50unIvy2sNCfqigusw'
+                                    url: 'https://youtube.com/channel/UC31AobZtVn1WxyM8h9gWC-w'
                                 }
                                 }, {
                                 urlButton: {
                                     displayText: 'Group Bot🔗',
-                                    url: 'https://chat.whatsapp.com/JK8R3UJVF1KKySPeisEWdS'
+                                    url: 'https://chat.whatsapp.com/F6CAAOhrORm1sPdq6cRKAS'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3544,12 +3547,12 @@ anu = `${ucapanWaktu} ${pushname}
 let btn = [{
                                 urlButton: {
                                     displayText: 'Youtube📽️',
-                                    url: 'https://youtube.com/channel/UCaybv50unIvy2sNCfqigusw'
+                                    url: 'https://youtube.com/channel/UC31AobZtVn1WxyM8h9gWC-w'
                                 }
                                 }, {
                                 urlButton: {
                                     displayText: 'Group Bot🔗',
-                                    url: 'https://chat.whatsapp.com/JK8R3UJVF1KKySPeisEWdS'
+                                    url: 'https://chat.whatsapp.com/F6CAAOhrORm1sPdq6cRKAS'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3617,12 +3620,12 @@ anu = `${ucapanWaktu} ${pushname}
 let btn = [{
                                 urlButton: {
                                     displayText: 'Youtube📽️',
-                                    url: 'https://youtube.com/channel/UCaybv50unIvy2sNCfqigusw'
+                                    url: 'https://youtube.com/channel/UC31AobZtVn1WxyM8h9gWC-w'
                                 }
                                 }, {
                                 urlButton: {
                                     displayText: 'Group Bot🔗',
-                                    url: 'https://chat.whatsapp.com/JK8R3UJVF1KKySPeisEWdS'
+                                    url: 'https://chat.whatsapp.com/F6CAAOhrORm1sPdq6cRKAS'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3697,12 +3700,12 @@ anu = `${ucapanWaktu} ${pushname}
 let btn = [{
                                 urlButton: {
                                     displayText: 'Youtube📽️',
-                                    url: 'https://youtube.com/channel/UCaybv50unIvy2sNCfqigusw'
+                                    url: 'https://youtube.com/channel/UC31AobZtVn1WxyM8h9gWC-w'
                                 }
                                 }, {
                                 urlButton: {
                                     displayText: 'Group Bot🔗',
-                                    url: 'https://chat.whatsapp.com/JK8R3UJVF1KKySPeisEWdS'
+                                    url: 'https://chat.whatsapp.com/F6CAAOhrORm1sPdq6cRKAS'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3772,12 +3775,12 @@ anu = `${ucapanWaktu} ${pushname}
 let btn = [{
                                 urlButton: {
                                     displayText: 'Youtube📽️',
-                                    url: 'https://youtube.com/channel/UCaybv50unIvy2sNCfqigusw'
+                                    url: 'https://youtube.com/channel/UC31AobZtVn1WxyM8h9gWC-w'
                                 }
                                 }, {
                                 urlButton: {
                                     displayText: 'Group Bot🔗',
-                                    url: 'https://chat.whatsapp.com/JK8R3UJVF1KKySPeisEWdS'
+                                    url: 'https://chat.whatsapp.com/F6CAAOhrORm1sPdq6cRKAS'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3850,12 +3853,12 @@ anu = `${ucapanWaktu} ${pushname}
 let btn = [{
                                 urlButton: {
                                     displayText: 'Youtube📽️',
-                                    url: 'https://youtube.com/channel/UCaybv50unIvy2sNCfqigusw'
+                                    url: 'https://youtube.com/channel/UC31AobZtVn1WxyM8h9gWC-w'
                                 }
                                 }, {
                                 urlButton: {
                                     displayText: 'Group Bot🔗',
-                                    url: 'https://chat.whatsapp.com/JK8R3UJVF1KKySPeisEWdS'
+                                    url: 'https://chat.whatsapp.com/F6CAAOhrORm1sPdq6cRKAS'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3946,12 +3949,12 @@ anu = `${ucapanWaktu} ${pushname}
 let btn = [{
                                 urlButton: {
                                     displayText: 'Youtube📽️',
-                                    url: 'https://youtube.com/channel/UCaybv50unIvy2sNCfqigusw'
+                                    url: 'https://youtube.com/channel/UC31AobZtVn1WxyM8h9gWC-w'
                                 }
                                 }, {
                                 urlButton: {
                                     displayText: 'Group Bot🔗',
-                                    url: 'https://chat.whatsapp.com/JK8R3UJVF1KKySPeisEWdS'
+                                    url: 'https://chat.whatsapp.com/F6CAAOhrORm1sPdq6cRKAS'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -4023,12 +4026,12 @@ anu = `${ucapanWaktu} ${pushname}
 let btn = [{
                                 urlButton: {
                                     displayText: 'Youtube📽️',
-                                    url: 'https://youtube.com/channel/UCaybv50unIvy2sNCfqigusw'
+                                    url: 'https://youtube.com/channel/UC31AobZtVn1WxyM8h9gWC-w'
                                 }
                                 }, {
                                 urlButton: {
                                     displayText: 'Group Bot🔗',
-                                    url: 'https://chat.whatsapp.com/JK8R3UJVF1KKySPeisEWdS'
+                                    url: 'https://chat.whatsapp.com/F6CAAOhrORm1sPdq6cRKAS'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -4097,12 +4100,12 @@ anu = `${ucapanWaktu} ${pushname}
 let btn = [{
                                 urlButton: {
                                     displayText: 'Youtube📽️',
-                                    url: 'https://youtube.com/channel/UCaybv50unIvy2sNCfqigusw'
+                                    url: 'https://youtube.com/channel/UC31AobZtVn1WxyM8h9gWC-w'
                                 }
                                 }, {
                                 urlButton: {
                                     displayText: 'Group Bot🔗',
-                                    url: 'https://chat.whatsapp.com/JK8R3UJVF1KKySPeisEWdS'
+                                    url: 'https://chat.whatsapp.com/F6CAAOhrORm1sPdq6cRKAS'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -4176,12 +4179,12 @@ anu = `${ucapanWaktu} ${pushname}
 let btn = [{
                                 urlButton: {
                                     displayText: 'Youtube📽️',
-                                    url: 'https://youtube.com/channel/UCaybv50unIvy2sNCfqigusw'
+                                    url: 'https://youtube.com/channel/UC31AobZtVn1WxyM8h9gWC-w'
                                 }
                                 }, {
                                 urlButton: {
                                     displayText: 'Group Bot🔗',
-                                    url: 'https://chat.whatsapp.com/JK8R3UJVF1KKySPeisEWdS'
+                                    url: 'https://chat.whatsapp.com/F6CAAOhrORm1sPdq6cRKAS'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -4271,12 +4274,12 @@ anu = `${ucapanWaktu} ${pushname}
 let btn = [{
                                 urlButton: {
                                     displayText: 'Youtube📽️',
-                                    url: 'https://youtube.com/channel/UCaybv50unIvy2sNCfqigusw'
+                                    url: 'https://youtube.com/channel/UC31AobZtVn1WxyM8h9gWC-w'
                                 }
                                 }, {
                                 urlButton: {
                                     displayText: 'Group Bot🔗',
-                                    url: 'https://chat.whatsapp.com/JK8R3UJVF1KKySPeisEWdS'
+                                    url: 'https://chat.whatsapp.com/F6CAAOhrORm1sPdq6cRKAS'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -4354,12 +4357,12 @@ anu = `${ucapanWaktu} ${pushname}
 let btn = [{
                                 urlButton: {
                                     displayText: 'Youtube📽️',
-                                    url: 'https://youtube.com/channel/UCaybv50unIvy2sNCfqigusw'
+                                    url: 'https://youtube.com/channel/UC31AobZtVn1WxyM8h9gWC-w'
                                 }
                                 }, {
                                 urlButton: {
                                     displayText: 'Group Bot🔗',
-                                    url: 'https://chat.whatsapp.com/JK8R3UJVF1KKySPeisEWdS'
+                                    url: 'https://chat.whatsapp.com/F6CAAOhrORm1sPdq6cRKAS'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -4429,12 +4432,12 @@ anu = `${ucapanWaktu} ${pushname}
 let btn = [{
                                 urlButton: {
                                     displayText: 'Youtube📽️',
-                                    url: 'https://youtube.com/channel/UCaybv50unIvy2sNCfqigusw'
+                                    url: 'https://youtube.com/channel/UC31AobZtVn1WxyM8h9gWC-w'
                                 }
                                 }, {
                                 urlButton: {
                                     displayText: 'Group Bot🔗',
-                                    url: 'https://chat.whatsapp.com/JK8R3UJVF1KKySPeisEWdS'
+                                    url: 'https://chat.whatsapp.com/F6CAAOhrORm1sPdq6cRKAS'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -4502,12 +4505,12 @@ anu = `${ucapanWaktu} ${pushname}
 let btn = [{
                                 urlButton: {
                                     displayText: 'Youtube📽️',
-                                    url: 'https://youtube.com/channel/UCaybv50unIvy2sNCfqigusw'
+                                    url: 'https://youtube.com/channel/UC31AobZtVn1WxyM8h9gWC-w'
                                 }
                                 }, {
                                 urlButton: {
                                     displayText: 'Group Bot🔗',
-                                    url: 'https://chat.whatsapp.com/JK8R3UJVF1KKySPeisEWdS'
+                                    url: 'https://chat.whatsapp.com/F6CAAOhrORm1sPdq6cRKAS'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -4571,12 +4574,12 @@ anu = `${ucapanWaktu} ${pushname}
 let btn = [{
                                 urlButton: {
                                     displayText: 'Youtube📽️',
-                                    url: 'https://youtube.com/channel/UCaybv50unIvy2sNCfqigusw'
+                                    url: 'https://youtube.com/channel/UC31AobZtVn1WxyM8h9gWC-w'
                                 }
                                 }, {
                                 urlButton: {
                                     displayText: 'Group Bot🔗',
-                                    url: 'https://chat.whatsapp.com/JK8R3UJVF1KKySPeisEWdS'
+                                    url: 'https://chat.whatsapp.com/F6CAAOhrORm1sPdq6cRKAS'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -4641,12 +4644,12 @@ anu = `${ucapanWaktu} ${pushname}
 let btn = [{
                                 urlButton: {
                                     displayText: 'Youtube📽️',
-                                    url: 'https://youtube.com/channel/UCaybv50unIvy2sNCfqigusw'
+                                    url: 'https://youtube.com/channel/UC31AobZtVn1WxyM8h9gWC-w'
                                 }
                                 }, {
                                 urlButton: {
                                     displayText: 'Group Bot🔗',
-                                    url: 'https://chat.whatsapp.com/JK8R3UJVF1KKySPeisEWdS'
+                                    url: 'https://chat.whatsapp.com/F6CAAOhrORm1sPdq6cRKAS'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -4717,12 +4720,12 @@ anu = `${ucapanWaktu} ${pushname}
 let btn = [{
                                 urlButton: {
                                     displayText: 'Youtube📽️',
-                                    url: 'https://youtube.com/channel/UCaybv50unIvy2sNCfqigusw'
+                                    url: 'https://youtube.com/channel/UC31AobZtVn1WxyM8h9gWC-w'
                                 }
                                 }, {
                                 urlButton: {
                                     displayText: 'Group Bot🔗',
-                                    url: 'https://chat.whatsapp.com/JK8R3UJVF1KKySPeisEWdS'
+                                    url: 'https://chat.whatsapp.com/F6CAAOhrORm1sPdq6cRKAS'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -4756,21 +4759,21 @@ let btn = [{
             break
                    
             case 'menu': case 'help': case '?': {
-                anu = `${ucapanWaktu} ${pushname}\n\nSaya ${global.namabot}, Bot Ini Adalah Bot Anonymous WhatsApp .\nSemoga Dapet Bersenang-senang Dan Dapat Teman Baru\nPilih Tombol Mulai Di Bawah Ini Untuk Menemukan Patner/Teman😁`
+                anu = `${ucapanWaktu} ${pushname}\n\nSaya ${global.namabot}, Bot Ini Adalah Beta Multi Device WhatsApp.\n\n${global.namabot} Adalah Hasil Recode ${global.namaowner} Menggunakan sc dari ZxynOfc (YosaArdn).\n\nJika Kamu Menemukan Semacam Bug Atau Kesalahan Harap Lapor Ke Owner Agar Segera Di Perbaiki😁`
                 let btn = [{
                                 urlButton: {
-                                    displayText: 'Instagram📽️',
-                                    url: 'http://instagram.com/saya_asroriamin'
+                                    displayText: 'Instagram',
+                                    url: 'https://instagram.com/saya_asroriamin'
                                 }
                                 }, {
                                 urlButton: {
                                     displayText: 'Group Bot🔗',
-                                    url: 'https://chat.whatsapp.com/JK8R3UJVF1KKySPeisEWdS'
+                                    url: 'https://chat.whatsapp.com/F6CAAOhrORm1sPdq6cRKAS'
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'Mulai',
-                                    id: 'mulai'
+                                    displayText: 'Start',
+                                    id: 'start'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -4800,20 +4803,20 @@ let btn = [{
 
 case 'donasi': {
 anu = `╭─❏ *『 DONASI 』*
-│ ➪ Dana : 088227248988
-│ ➪ Pulsa : 088227248988,083843192208
+│ ➪ Dana : 085822347348
+│ ➪ Pulsa : 085822347348,083843192208
 ╰───────────────❏
 
 *TERIMA KASIH BUAT YANG SUDAH MAU DONASI🤗*`
 let btn = [{
                                 urlButton: {
                                     displayText: 'Youtube📽️',
-                                    url: '088227248988'
+                                    url: '085822347348'
                                 }
                                 }, {
                                 urlButton: {
                                     displayText: 'Group Bot🔗',
-                                    url: 'https://chat.whatsapp.com/JK8R3UJVF1KKySPeisEWdS'
+                                    url: 'https://chat.whatsapp.com/F6CAAOhrORm1sPdq6cRKAS'
                                 }
                             }]
                          let setbot = db.data.settings[botNumber]
@@ -4889,12 +4892,12 @@ Ini`
 let btn = [{
                                 urlButton: {
                                     displayText: 'Youtube📽️',
-                                    url: 'https://youtube.com/channel/UCaybv50unIvy2sNCfqigusw'
+                                    url: 'https://youtube.com/channel/UC31AobZtVn1WxyM8h9gWC-w'
                                 }
                                 }, {
                                 urlButton: {
                                     displayText: 'Group Bot🔗',
-                                    url: 'https://chat.whatsapp.com/JK8R3UJVF1KKySPeisEWdS'
+                                    url: 'https://chat.whatsapp.com/F6CAAOhrORm1sPdq6cRKAS'
                                 }
                                 }, {
                                 quickReplyButton: {
@@ -4941,12 +4944,12 @@ https://zenzapis.xyz`
 	let btn = [{
                                 urlButton: {
                                     displayText: 'Youtube📽️',
-                                    url: 'https://youtube.com/channel/UCaybv50unIvy2sNCfqigusw'
+                                    url: 'https://youtube.com/channel/UC31AobZtVn1WxyM8h9gWC-w'
                                 }
                                 }, {
                                 urlButton: {
                                     displayText: 'Group Bot🔗',
-                                    url: 'https://chat.whatsapp.com/JK8R3UJVF1KKySPeisEWdS'
+                                    url: 'https://chat.whatsapp.com/F6CAAOhrORm1sPdq6cRKAS'
                                 }
                                 }, {
                                 quickReplyButton: {
