@@ -136,7 +136,7 @@ module.exports = zxyn = async (zxyn, m, chatUpdate, store) => {
             if (typeof setting !== 'object') global.db.data.settings[botNumber] = {}
 	    if (setting) {
 		if (!isNumber(setting.status)) setting.status = 0
-		if (!('autobio' in setting)) setting.autobio = true
+		if (!('autobio' in setting)) setting.autobio = false
 		if (!('templateImage' in setting)) setting.templateImage = true
 		if (!('templateVideo' in setting)) setting.templateVideo = false
 		if (!('templateGif' in setting)) setting.templateGif = false
@@ -144,7 +144,7 @@ module.exports = zxyn = async (zxyn, m, chatUpdate, store) => {
 		if (!('templateLocation' in setting)) setting.templateLocation = false
 	    } else global.db.data.settings[botNumber] = {
 		status: 0,
-		autobio: true,
+		autobio: false,
 		templateImage: true,
 		templateVideo: false,
 		templateGif: false,
