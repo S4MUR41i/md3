@@ -12,12 +12,12 @@ global.APIKeys = {
 }
 
 // Other
-global.namabot = ['ArullBotzMD']
-global.namaowner = ['ArullOfc']
-global.owner = ['6285822347348']
-global.premium = ['6285822347348']
-global.packname = 'Sticker By'
-global.author = 'ArullOfc'
+global.namabot = ['Amin Bot']
+global.namaowner = ['Asrori Amin']
+global.owner = ['6288227248988']
+global.premium = ['6288227248988']
+global.packname = 'Asrori Amin'
+global.author = ''
 global.sessionName = 'zxyn'
 global.prefa = ['','!','.','🐦','🐤','🗿']
 global.sp = '⭔'
@@ -37,7 +37,7 @@ global.limitawal = {
     free: 100
 }
 global.thumb = fs.readFileSync('./lib/zxyn.jpg')
-global.visoka = { url: 'https://telegra.ph/file/15209657f9d4f59c7ca1e.mp4' }
+global.visoka = { url: 'https://telegra.ph/file/d689fbc3359893e7cbd52.mp4' }
 
 let file = require.resolve(__filename)
 fs.watchFile(file, () => {
